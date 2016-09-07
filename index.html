@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-        <meta name="viewport" content="width=device-width" />
-        <title>APPCF Accueil</title>
-        <link rel="stylesheet" href="css/bootstrap.css">
-    </head>
+<head>
+  <title> APPCF </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    #logo{
+        width: auto;
+        height: 100%;
+    }
+    .navbar-brand{
+        padding:2px;
+    }
+    .img-responsive{
+        height: 100vh;
+        width: auto;
+    }
+    .wrapper{
+        background-color: black;
+    }
+  </style>
+</head>
     
     <body>
         <div id  = "block_page">
-            <!-- This is an introduction image -->
-            <div class="section section_header">
-                <div class="parallax pattern-image">
-                    <img src="bin/img/welcome.png"/>
+            <div class="wrapper">
+                <!-- This is an introduction image -->
+                <div class="section section_header">
+                    <div class="parallax pattern-image">
+                        <img src="bin/img/welcome.png" class="img-responsive"/>
+                    </div>
+                    <a href="" data-scroll="true" data-id="#start_page" class="scroll-arrow hidden-xs hidden-sm">
+                        <i class="fa fa-angle-down">
+                    </a>
                 </div>
-                <a href="" data-scroll="true" data-id="#start_page" class="scroll-arrow hidden-xs hidden-sm">
-                    <i class="fa fa-angle-down">
-                </a>
             </div>
             <!-- This part is common to all the pages -->
-            <div id="start_page">
+            <div class="section" id="start_page">
             <header>
                 <!-- Information within the carroussel -->
                 
                 <!-- Navigation bar -->
-                <nav> 
-					<ul>
-						<li> <a href="index.html"> Accueil </a> </li>
-                        <li> <a href=""> Patrimoine </a> </li>
-						<li> <a href=""> Actualités </a> </li>
-						<li> <a href=""> Bulletins </a> </li>
-                        <li> <a href=""> Avis de Recherche </a> </li>
-                        <li> <a href=""> Contact </a> </li>
-					</ul>
-				</nav>
+                <nav class="navbar navbar-inverse navbar-static-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html">
+                                <img alt="Brand" src="bin/img/logotest.png" id="logo">
+                            </a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Accueil</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Patrimoine <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Liste Patrimoine Protégé</a></li>
+                                    <li><a href="#">Mémorial Internet</a></li>
+                                    <li><a href="#">Littérature</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href=""> Actualités </a> </li>
+                            <li> <a href=""> Bulletins </a> </li>
+                            <li> <a href=""> Avis de Recherche </a> </li>
+                            <li> <a href=""> Contact </a> </li>
+                        </ul>
+                    </div>
+                </nav>
                 
             </header>
             </div>

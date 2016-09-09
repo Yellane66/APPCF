@@ -8,6 +8,10 @@
 }
 
 .img-welcome {
+	background-color: black;
+}
+
+.img-welcome img {
 	height: 100vh;
 	width: auto;
 	display: block;
@@ -15,13 +19,23 @@
 	margin-right:auto;
 }
 
-.wrapper {
-	background-color: black;
-}
+
 	
-#myCarousel {
+/*#myCarousel {
 	height: 300px;
+}*/
+
+.row{
+    background-color: #cecece;
 }
+
+.carousel-indicators li{
+    background-color: #000000;
+    border: 1px solid #000000;
+    
+}
+
+
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {

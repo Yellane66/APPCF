@@ -1,11 +1,4 @@
-#logo {
-	width: auto;
-	height: 100%;
-}
-
-.navbar-brand {
-	padding:2px;
-}
+/*## PAGE D'ACCEUIL #########################################################*/
 
 .img-welcome {
 	background-color: black;
@@ -19,17 +12,24 @@
 	margin-right:auto;
 }
 
-section {
-    background-color: #cecece;
+/*## HEADER #################################################################*/ 
+
+/*#### NAVIGATION BAR #######################################################*/
+#logo {
+	width: auto;
+	height: 100%;
 }
+
+.navbar-brand {
+	padding:2px;
+}
+
+/*#### CAROUSSEL ############################################################*/
 
 .carousel-indicators li{
-    background-color: #000000;
-    border: 1px solid #000000;
-    
+    background-color: #333;
+    border: 1px solid #333;
 }
-
-
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -37,7 +37,118 @@ section {
 	margin: auto;
 }
 
+.carousel-content img {
+    float: right;
+    height: 300px;
+    width: auto;
+    margin-top: 0;
+}
+
+.carousel-content h1, h2, h3 {
+    font-weight: bold;
+}
+
+.carousel-content h3 {
+    font-style: italic;
+}
+
+.carousel-content h1 {
+    color: #F30101;
+    margin-top: 45px;
+    text-shadow: -1px 0 #C41111, 0 1px #C41111, 1px 0 #C41111, 0 -1px #C41111;
+}
+
+.carousel-content em {
+    color: #1726FE;
+    font-style: normal;
+    text-shadow: -1px 0 #000982, 0 1px #000982, 1px 0 #000982, 0 -1px #000982;
+}
+
+@media all and (min-width: 960px) {
+.carousel-content h1{
+    font-size: 45px;
+  }  
+.carousel-content h2{
+    font-size: 30px;
+  }
+.carousel-content h3{
+    font-size: 24px;
+  }
+
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+.carousel-content h1{
+    font-size: 35px;
+  }
+.carousel-content h2{
+    font-size: 24px;
+  }
+.carousel-content h3{
+    font-size: 18px;
+  }
+
+}
+
+@media all and (max-width: 599px){
+.carousel-content h1{
+    font-size: 24px;
+    margin-top: 10%;
+  }
+.carousel-content h2{
+    font-size: 18px;
+    margin-top: 5px;
+  }
+.carousel-content h3{
+    font-size: 15px;
+    margin-top: 5px;
+  }
+.carousel-content img {
+    height: 200px;
+}
+}
+
+/*## SECTION ################################################################*/ 
+
+section {
+    background-color: #cecece;
+}
 
 .col-md-12 h1 {
 	text-align: center;
 }
+
+.col-md-8 p {
+    margin-top: 20px;
+}
+
+.img-responsive {
+    margin-top: 15px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+/*#### DESCRIPTIVE LIST #####################################################*/
+
+dl {
+    width: 100%;
+    display: block;
+}
+
+dt {
+    float: left;
+    width: 25%;
+}
+
+dd::before{
+    content: "->";
+    margin-right: 20px;
+}
+
+dd {
+    float: left;
+    width: 75%;
+}
+
+/*#### FOOTER ###############################################################*/

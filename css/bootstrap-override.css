@@ -27,6 +27,7 @@
 .navbar-inverse {
     background-color: #1A2184;
     border-color: #0E113F;
+    margin-bottom:0;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
@@ -38,6 +39,10 @@
 }
 
 /*#### CAROUSSEL ############################################################*/
+
+#myCarousel {
+    margin-top: 60px;
+}
 
 .carousel-indicators li{
     background-color: #333;
@@ -140,16 +145,19 @@ section {
 }
 
 .img-responsive {
-    margin-top: 25px;
+    margin-top: 25px; 
+    float: right;
 }
 
 @media all and (max-width: 768px){
 .img-hori{
+    float: none;
     width: 300px;
     height: auto;
     margin: auto;
 }
 .img-verti{
+    float: none;
     height: 300px;
     width: auto;
     margin: auto;

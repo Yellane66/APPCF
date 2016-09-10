@@ -124,7 +124,7 @@
 /*## SECTION ################################################################*/ 
 
 section {
-    background-color: #cecece;
+    background-color: #D4EEEF;
 }
 
 .col-md-12 h1 {
@@ -144,9 +144,14 @@ section {
 }
 
 @media all and (max-width: 768px){
-.img-responsive{
+.img-hori{
     width: 300px;
     height: auto;
+    margin: auto;
+}
+.img-verti{
+    height: 300px;
+    width: auto;
     margin: auto;
 }
 }

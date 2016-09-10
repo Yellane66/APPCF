@@ -16,12 +16,25 @@
 
 /*#### NAVIGATION BAR #######################################################*/
 #logo {
-	width: auto;
 	height: 100%;
+    width: auto;
 }
 
 .navbar-brand {
 	padding:2px;
+}
+
+.navbar-inverse {
+    background-color: #1A2184;
+    border-color: #0E113F;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #0E113F;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #eee;
 }
 
 /*#### CAROUSSEL ############################################################*/
@@ -122,33 +135,39 @@ section {
     margin-top: 20px;
 }
 
-.img-responsive {
-    margin-top: 15px;
-}
-
 .row {
     margin-bottom: 10px;
 }
-/*#### DESCRIPTIVE LIST #####################################################*/
 
-dl {
+.img-responsive {
+    margin-top: 25px;
+}
+
+@media all and (max-width: 768px){
+.img-responsive{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+}
+
+.row h4 {
+    font-weight: bold;
+}
+
+/*#### DESCRIPTIVE TABLE ####################################################*/
+table {
     width: 100%;
-    display: block;
+    table-layout: fixed;
 }
 
-dt {
-    float: left;
-    width: 25%;
+td.role {
+    width: 125px;
+    font-weight: bold;
+    font-size: 16px;
 }
-
-dd::before{
+td.name::before {
     content: "->";
     margin-right: 20px;
 }
-
-dd {
-    float: left;
-    width: 75%;
-}
-
 /*#### FOOTER ###############################################################*/

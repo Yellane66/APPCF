@@ -142,6 +142,7 @@ a {
 
 .col-md-12 h1 {
 	text-align: center;
+    font-weight: bold;
 }
 
 .col-md-8 p {
@@ -152,7 +153,13 @@ a {
     margin-bottom: 10px;
 }
 
-.img-responsive {
+.img-bulletin {
+    max-height:300px;
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+.img-list {
     margin-top: 25px; 
     float: right;
 }

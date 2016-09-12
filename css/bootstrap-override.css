@@ -183,6 +183,12 @@ a {
     font-weight: bold;
 }
 
+.img-pres {
+    height: 120px; 
+    margin: 15px;
+    float: right;
+}
+
 .img-links {
     height: 120px; 
     margin: 15px;
@@ -205,6 +211,22 @@ a {
 }
 }
 
+em.date {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1726FE;
+    float: left;
+    margin-right: 10px;
+}
+
+p.marge {
+    margin-bottom: 25px;
+}
+
+h2.link {
+    text-align: center;
+}
 /*#### DESCRIPTIVE TABLE ####################################################*/
 table {
     width: 100%;

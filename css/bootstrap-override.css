@@ -15,6 +15,12 @@
 /*## HEADER #################################################################*/ 
 
 /*#### NAVIGATION BAR #######################################################*/
+nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}    
 #logo {
 	height: 100%;
     width: auto;
@@ -155,6 +161,7 @@ a {
 
 .img-bulletin {
     max-height:300px;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 5px
 }

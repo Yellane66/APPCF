@@ -1,35 +1,23 @@
-/*## PAGE D'ACCEUIL #########################################################*/
+/*###########################################################################*/
+/*# Bootstrap-Override CSS page                                             #*/
+/*###########################################################################*/
 
-.img-welcome {
-	background-color: black;
+/*## BODY                                                                  ##*/
+
+body {
+    position: absolute;
+    top: 60px;
+    width: 100vw;
 }
 
-.img-welcome img {
-	height: 100vh;
-	width: auto;
-	display: block;
-	margin-left: auto;
-	margin-right:auto;
-}
-
-/*## HEADER #################################################################*/ 
-
-/*#### NAVIGATION BAR #######################################################*/
-nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
-}    
-#logo {
-	height: 100%;
-    width: auto;
-}
+/*#### HEADER                                                            ####*/
+/*###### NAVIGATION BAR                                                ######*/
 
 .navbar-brand {
-	padding:2px;
+	padding:2px; 
 }
 
+/*Change the color of the navigation bar*/
 .navbar-inverse {
     background-color: #1A2184;
     border-color: #0E113F;
@@ -37,30 +25,52 @@ nav.affix {
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-    background-color: #0E113F;
+    background-color: #0E113F; /*Emphasise the current tab */
 }
 
+/*Change the color of the navigation bar text*/
 .navbar-inverse .navbar-nav>li>a {
     color: #eee;
 }
 
-/*#### CAROUSSEL ############################################################*/
-
-#myCarousel {
-    margin-top: 60px;
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #B5B3B3; /*Emphasise the clickable text in the navbar*/
 }
 
+/*Change the color of the collapse button*/
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #0E113F;
+    border-color: #0E113F; 
+}
+
+/*Addapt the size of the logo to the navigation bar*/
+#logo {
+    height: 100%;
+    width: auto;
+}
+
+/*###### CAROUSEL                                                      ######*/
+/*## Modification common to all the media & default                        ##*/
+
+/*Make the marker visible*/
 .carousel-indicators li{
     background-color: #333;
     border: 1px solid #333;
 }
 
+.carousel-indicators {
+    bottom: 5px;
+    margin-bottom: 0;
+}
+
+/*Make the carousel display on a reduced portion of the page*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	width: 70%;
 	margin: auto;
 }
 
+/*Process the img in the carousel*/
 .carousel-content img {
     float: right;
     height: 300px;
@@ -68,15 +78,13 @@ nav.affix {
     margin-top: 0;
 }
 
+/*Modified the title style within the carousel*/
 .carousel-content h1, h2, h3 {
     font-weight: bold;
 }
 
-.carousel-content h3 {
-    font-style: italic;
-}
-
 .carousel-content h1 {
+    font-size: 45px;
     color: #F30101;
     margin-top: 45px;
     text-shadow: -1px 0 #C41111, 0 1px #C41111, 1px 0 #C41111, 0 -1px #C41111;
@@ -88,75 +96,89 @@ nav.affix {
     text-shadow: -1px 0 #000982, 0 1px #000982, 1px 0 #000982, 0 -1px #000982;
 }
 
-@media all and (min-width: 960px) {
-.carousel-content h1{
-    font-size: 45px;
-  }  
 .carousel-content h2{
-    font-size: 30px;
-  }
-.carousel-content h3{
-    font-size: 24px;
-  }
-
-}
-
-@media all and (max-width: 959px) and (min-width: 600px) {
-.carousel-content h1{
     font-size: 35px;
-  }
-.carousel-content h2{
+}
+
+.carousel-content h3 {
     font-size: 24px;
-  }
-.carousel-content h3{
-    font-size: 18px;
-  }
-
+    font-style: italic;
 }
 
-@media all and (max-width: 599px){
-.carousel-content h1{
+.carousel-content>a, .carousel-content>a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    .carousel-content h1{
+    font-size: 50px;
+    }
+    .carousel-content h2{
+    font-size: 45px;
+    }
+    .carousel-content h3{
+    font-size: 34px;
+    }
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+    .carousel-content h1{
+    font-size: 40px;
+    }
+    .carousel-content h2{
+    font-size: 30px;
+    }
+    .carousel-content h3{
+    font-size: 20px;
+    }
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    .carousel-content h1{
+    font-size: 35px;
+    }
+    .carousel-content h2{
     font-size: 24px;
-    margin-top: 10%;
-  }
-.carousel-content h2{
+    }
+    .carousel-content h3{
     font-size: 18px;
-    margin-top: 5px;
-  }
-.carousel-content h3{
-    font-size: 15px;
-    margin-top: 5px;
-  }
-.carousel-content img {
-    height: 200px;
-}
-}
+    }
 
-/*## SECTION ################################################################*/ 
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .carousel-content h1{
+        font-size: 24px;
+        margin-top: 10%;
+    }
+    .carousel-content h2{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .carousel-content h3{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .carousel-content img {
+        height: 200px;
+    }
+}
+/*###########################################################################*/
+
+/*#### SECTION                                                           ####*/
 
 section {
     background-color: #D4EEEF;
 }
 
-a:focus, a:hover {
-    text-decoration: none;
-}
-
-a {
-    color: #333;
-}
-
-.col-md-12 h1 {
-	text-align: center;
-    font-weight: bold;
-}
-
-.col-md-8 p {
-    margin-top: 20px;
-}
-
-.row {
-    margin-bottom: 10px;
+section p {
+    text-align: justify;
+    text-justify: inter-word
 }
 
 .img-bulletin {
@@ -166,90 +188,78 @@ a {
     margin-bottom: 5px
 }
 
-.img-list {
-    margin-top: 25px; 
-    float: right;
+.blt-list > .row {
+    padding-top: 60px;
 }
 
-@media all and (max-width: 768px){
-.img-hori{
-    float: none;
-    width: 300px;
-    height: auto;
+.img-SW {
+    max-width: 200px;
     margin: auto;
-}
-.img-verti{
-    float: none;
-    height: 300px;
-    width: auto;
-    margin: auto;
-}
+    margin-top: 10px;
+    margin-bottom: 5px
 }
 
-.row h4 {
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1A2184;
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px){
+    .img-list {
+        float: right;
+    }
+    h2.link {
+        text-align: center;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    .img-list {
+        float: none;
+    }
+    h2.link {
+        text-align: center;
+        font-size: 20px;
+    }
+    .address {
+        font-size: 18px;
+    }
+}
+
+.contact {
+    position: relative; 
+    padding-left: 3px; 
+    bottom: -5px;
+}
+
+#emf-container-outer {
+    background-color: #D4EEEF;
+}
+
+.address {
+    font-size: 24px;
+    padding-top: 10%;
+}
+
+.address em {
     font-weight: bold;
+    font-size: 20px;
 }
 
-.img-pres {
-    height: 120px; 
-    margin: 15px;
-    float: right;
-}
-
-.img-links {
-    height: 120px; 
-    margin: 15px;
-}
-
-.img-links-hori{
-    height: 50px;
-    margin: 15px;
-}
-
-@media all and (max-width: 768px){
-.img-links {
-    height: 80px; 
-    margin: 15px;
-}
-
-.img-links-hori{
-    height: 30px;
-    margin: 15px;
-}
-}
-
-em.date {
-    font-size: 25px;
-    font-weight: bold;
-    font-style: normal;
-    color: #1726FE;
-    float: left;
-    margin-right: 10px;
-}
-
-p.marge {
-    margin-bottom: 25px;
-}
-
-h2.link {
+.row h1 {
     text-align: center;
 }
-/*#### DESCRIPTIVE TABLE ####################################################*/
-table {
-    width: 100%;
-    table-layout: fixed;
-}
+/*###########################################################################*/
 
-td.role {
-    width: 125px;
-    font-weight: bold;
-    font-size: 16px;
-}
-td.name::before {
-    content: "->";
-    margin-right: 20px;
-}
-/*#### FOOTER ###############################################################*/
+/*#### SECTION                                                           ####*/
 footer {
     background-color: #1A2184;
 }
@@ -260,4 +270,3 @@ footer p {
     margin-top: 10px;
     text-align: right;
 }
-

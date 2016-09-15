@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="img-welcome">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> APPCF </title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-override.css">
+       
+    </head>
+    
+    <body>
+        
+            <div>
+                <!-- This is an introduction image -->
+                
+                <!-- <img src="img/welcome.jpg"> -->
+                <h1 class="sigle"> APPCF </h1>
+                <h2 class="assos_name"> Association de Protection du 
+                Patrimoine de la Commune de <br> Fontpédrouse – 
+                Prats-Balaguer – Saint-Thomas </h2>
+            </div>
+            <div>
+                <a href="index.html">
+                    <button type="button" class="btn btn-primary center-block">
+                        Entrer dans le site </button>
+                </a>
+            </div>
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.navbar').affix({
+                    offset: {
+                        top: $('div.img-welcome').height()
+                    }
+                })
+            })
+        </script>
+        
+    </body>
+</html>

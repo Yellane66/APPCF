@@ -4,12 +4,126 @@
 
 /*## BODY                                                                  ##*/
 
-body {
-    position: absolute;
-    top: 60px;
-    width: 100vw;
+@font-face {
+    font-family: 'geometry_soft_probold_n';
+    src: url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.eot');
+    src: url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.woff') format('woff'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.ttf') format('truetype'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.svg#geometry_soft_probold_n') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('../fonts/Calligraffiti-webfont.eot');
+    src: url('../fonts/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Calligraffiti-webfont.woff') format('woff'),
+         url('../fonts/Calligraffiti-webfont.ttf') format('truetype'),
+         url('../fonts/Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*###########################################################################*/
+/*#### COVER PAGE                                                        ####*/
+
+html.img-welcome {
+    background: url(../img/welcome.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
 }
 
+html.img-welcome > body {
+    background: transparent;
+}
+
+html.img-welcome > body > div {
+    height: 50vh;
+}
+
+html.img-welcome > body > div > h1 {
+    color: #F6E934;
+    text-shadow: -3px 0 #C41111, 0 1px #C41111, 1px 0 #C41111, 0 -1px #C41111;
+    font-size: 70px;
+    font-family: 'geometry_soft_probold_n';
+    font-weight: bold;
+    text-align: center;
+}
+
+html.img-welcome > body > div > h2 {
+    color: #F6E934;
+    text-shadow: -1px 0 #C41111, 0 1px #C41111, 1px 0 #C41111, 0 -1px #C41111;
+    font-size: 40px;
+    font-family: 'calligraffitiregular';
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #F6E934;
+    background-color: #C41111;
+    border-color: #9B0000;
+}
+
+.btn-primary:hover {
+    background-color: #1A2184;
+    border-color: #0E113F;
+}
+
+.btn-primary {
+    margin-top: 5vh;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    html.img-welcome > body > div > h1 {
+        font-size: 100px;
+    }
+    html.img-welcome > body > div > h2 {
+        font-size: 50px;
+    }
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+    html.img-welcome > body > div > h1 {
+        font-size: 60px;
+        margin-top: 15vh;
+    }
+    html.img-welcome > body > div > h2 {
+        font-size: 30px;
+    }
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    html.img-welcome > body > div > h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    html.img-welcome > body > div > h2 {
+        font-size: 25px;
+        margin-top: 0;
+    }
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    html.img-welcome > body > div > h1 {
+        font-size: 50px;
+    }
+    html.img-welcome > body > div > h2 {
+        font-size: 20px;
+    }
+}
+
+/*###########################################################################*/
 /*#### HEADER                                                            ####*/
 /*###### NAVIGATION BAR                                                ######*/
 
@@ -52,6 +166,10 @@ body {
 /*###### CAROUSEL                                                      ######*/
 /*## Modification common to all the media & default                        ##*/
 
+/**/
+#myCarousel {
+    padding-top: 60px;
+}
 /*Make the marker visible*/
 .carousel-indicators li{
     background-color: #333;
@@ -232,7 +350,23 @@ a:hover {
     .address {
         font-size: 18px;
     }
+    .img-pres {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .img-pres-large {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .img-pres-Vlarge {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
 }
+
 
 .contact {
     position: relative; 
@@ -257,9 +391,54 @@ a:hover {
 .row h1 {
     text-align: center;
 }
-/*###########################################################################*/
 
-/*#### SECTION                                                           ####*/
+.img-links {
+    height: 80px; 
+    margin: 15px;
+}
+
+.img-links-hori{
+    height: 30px;
+    margin: 15px;
+}
+
+/*.date {
+    margin-top: 40%;
+}*/
+
+.sep::before {
+    content:"~";
+    font-size: 25px;
+    margin: auto;
+}
+
+.date > p {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0;
+}
+    
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .date {
+        padding: 0;
+    }
+    .col-xs-7{
+        padding: 5px;
+    }
+    .col-xs-10{
+        padding-left: 5px;
+    }
+    .date > p {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+
+
+/*###########################################################################*/
+/*#### FOOTER                                                            ####*/
 footer {
     background-color: #1A2184;
 }

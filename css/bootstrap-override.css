@@ -336,6 +336,10 @@ a:hover {
     h2.link {
         text-align: center;
     }
+    .img-pres-large {
+        margin: auto;
+        margin-top: 30%;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -401,10 +405,6 @@ a:hover {
     height: 30px;
     margin: 15px;
 }
-
-/*.date {
-    margin-top: 40%;
-}*/
 
 .sep::before {
     content:"~";

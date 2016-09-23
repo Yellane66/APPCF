@@ -29,7 +29,7 @@
 /*###########################################################################*/
 /*#### COVER PAGE                                                        ####*/
 
-html.img-welcome {
+.img-welcome {
     background: url(../img/welcome.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -38,30 +38,50 @@ html.img-welcome {
     
 }
 
-html.img-welcome > body {
-    background: transparent;
+.img-welcome {
+    display: table;
+    height: 100vh;
+    width: 100vw;
 }
 
-html.img-welcome > body > div {
-    height: 50vh;
-}
-
-html.img-welcome > body > div > h1 {
+.img-welcome > div {
+    display: table-row;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
     color: #F6E934;
+}
+
+.img-welcome-cell {
+    display: table-cell;
+}
+
+.img-welcome-top .img-welcome-cell {
+    vertical-align: bottom;
+    padding-bottom: 20px;
+}
+
+.img-welcome-bottom .img-welcome-cell {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.img-welcome-top h1 {
+    margin: 0;
     text-shadow: -3px 0 #C41111, 0 1px #C41111, 1px 0 #C41111, 0 -1px #C41111;
     font-size: 70px;
     font-family: 'geometry_soft_probold_n';
     font-weight: bold;
-    text-align: center;
 }
 
-html.img-welcome > body > div > h2 {
-    color: #F6E934;
+.img-welcome-bottom h2 {
+    margin: 0;
     text-shadow: -1px 0 #C41111, 0 1px #C41111, 1px 0 #C41111, 0 -1px #C41111;
     font-size: 40px;
     font-family: 'calligraffitiregular';
     font-weight: bold;
-    text-align: center;
 }
 
 .btn-primary {
@@ -81,33 +101,33 @@ html.img-welcome > body > div > h2 {
 
 /* Large desktop */
 @media (min-width: 1200px) { 
-    html.img-welcome > body > div > h1 {
+    .img-welcome h1 {
         font-size: 100px;
     }
-    html.img-welcome > body > div > h2 {
+    .img-welcome h2 {
         font-size: 50px;
     }
  }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
-    html.img-welcome > body > div > h1 {
+    .img-welcome h1 {
         font-size: 60px;
         margin-top: 15vh;
     }
-    html.img-welcome > body > div > h2 {
+    .img-welcome h2 {
         font-size: 30px;
     }
  }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-    html.img-welcome > body > div > h1 {
+    .img-welcome h1 {
         font-size: 60px;
         margin-bottom: 0;
         margin-top: 10px;
     }
-    html.img-welcome > body > div > h2 {
+    .img-welcome  h2 {
         font-size: 25px;
         margin-top: 0;
     }
@@ -115,10 +135,10 @@ html.img-welcome > body > div > h2 {
  
 /* Landscape phones and down */
 @media (max-width: 480px) { 
-    html.img-welcome > body > div > h1 {
+    .img-welcome  h1 {
         font-size: 50px;
     }
-    html.img-welcome > body > div > h2 {
+    .img-welcome h2 {
         font-size: 20px;
     }
 }

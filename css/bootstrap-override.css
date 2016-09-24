@@ -358,7 +358,14 @@ a:hover {
     }
     .img-pres-large {
         margin: auto;
+    }
+    .mot-pres img {
         margin-top: 30%;
+    }
+    .mot-pres p {
+        max-width: 320px;
+        margin: auto;
+        font-style: italic;
     }
 }
 

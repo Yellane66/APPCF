@@ -319,6 +319,9 @@ section p {
     text-justify: inter-word
 }
 
+section.section-margin {
+  margin-top: 50px;
+}
 .img-bulletin {
     max-height:300px;
     margin: auto;
@@ -474,6 +477,43 @@ img.img-flag {
     height: 20px;
 }
 
+/*###########################################################################
+##### HIKES */
+
+table.hikes-sum td.hikes-label {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+table.hikes-sum td.hikes-value {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+h4.hike-name {
+  display: inline-block;
+}
+
+.regulation-img {
+  display: inline-block;
+  height: 50px;
+}
+
+a.hikes-link {
+  font-weight: bold;
+  color: #1a2184;
+  font-style: italic;
+}
+
+#photoCarousel .carousel-inner img {
+  float: unset;
+  margin: auto;
+}
+
+#photoCarousel .carousel-inner h4 {
+  text-align: center;
+}
 
 /*###########################################################################*/
 /*#### FOOTER                                                            ####*/

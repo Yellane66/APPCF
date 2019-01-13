@@ -9,54 +9,6 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-override.css"> 
         
-        <style>
-        /* Tooltip container */
-.hikes-tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-/* Tooltip text */
-.hikes-tooltip .hikes-tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-/* Tooltip arrow */
-.hikes-tooltip .hikes-tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.hikes-tooltip:hover .hikes-tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
-        </style>
     </head>
     
     <body>
@@ -87,7 +39,7 @@
                                 <li>
                                     <a href="index_text.html">Accueil</a>
                                 </li>
-                                <li class="dropdown active">
+                                <li class="dropdown">
                                     <a class="dropdown-toggle" 
                                        data-toggle="dropdown" 
                                        href="#"> 
@@ -113,7 +65,7 @@
                                     </ul>
                                 </li>
                                 <li> 
-                                    <a href="events.html"> Actualités</a> 
+                                    <a href="events.html"> Actualités </a> 
                                 </li>
                                 <li> 
                                     <a href="bulletins.html"> Bulletins </a> 
@@ -123,7 +75,7 @@
                                         Avis de Recherche 
                                     </a> 
                                 </li>
-                                <li> 
+                                <li class="active"> 
                                     <a href="hikes.html"> 
                                         Randonnées 
                                     </a> 
@@ -136,187 +88,159 @@
                     </div>
                 </div>
             </nav>
-            <!-- Information within the carroussel -->
-                <div id="myCarousel" 
-                     class="carousel slide" 
-                     data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" 
-                            data-slide-to="0" 
-                            class="active">
-                        </li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="container">
-                                <div class="row carousel-content">
-                                    <a href="bulletins.html">
-                                        <div class="col-xs-5 col-ms-3">
-                                            <img src="img/bulletins.png" 
-                                                 alt="photo de plusieurs 
-                                                      couverture des bulletins 
-                                                      annuels de l'association" 
-                                                 class="img-responsive">
-                                        </div>
-                                        <div class="col-xs-7 col-ms-9">
-                                            <h1> Bulletins Annuels </h1>
-                                            <h3> Retrouvez la liste de tous les
-                                            bulletins publiés par l'association 
-                                            ainsi qu'un resumé de leur contenu. 
-                                            </h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="container">
-                                <div class="row carousel-content">
-                                    <a href="search_warrant.html">
-                                        <div class="col-xs-5 col-ms-3">
-                                            <img src="img/vierge.jpg" 
-                                                 alt="photo de la statue de la 
-                                                      vierge romane à l'enfant" 
-                                                 class="img-responsive">
-                                        </div>
-                                        <div class="col-xs-7 col-ms-9">
-                                            <h1> Avis de Recherche </h1>
-                                            <h2> Vierge Romane à l'enfant </h2>
-                                            <h3> Datée: fin XIIème - 
-                                                 XIIIème siècle </h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="row carousel-content">
-                                    <a href="search_warrant.html">
-                                        <div class="col-xs-5 col-ms-3">
-                                            <img src="img/st_catherine.png" 
-                                                 alt="photo de la statue de la 
-                                                      martyre St Catherine et 
-                                                      sa croix" 
-                                                 class="img-responsive">
-                                        </div>
-                                        <div class="col-xs-7 col-ms-9">
-                                            <h1> Avis de Recherche </h1>
-                                            <h2> Vierge et Martyre Ste Catherine
-                                                 d'Alexandrie </h2>
-                                            <h3> Datée XIVème siècle </h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="row carousel-content">
-                                    <a href="internet_memorial.html">
-                                        <div class="col-xs-5 col-ms-3">
-                                            <img src="img/label_centenaire.png" 
-                                                 alt="label centenaire de la 
-                                                      grande guerre" 
-                                                 class="img-responsive">
-                                        </div>
-                                        <div class="col-xs-7 col-ms-9">
-                                            <h1> <em>Mémorial</em> Internet 
-                                            </h1>
-                                            <h3> Découvrez l'histoire des 
-                                                 habitants de Fontpédrouse morts
-                                                 pour la France </h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
         </header>
-        <section>
+        <section class="section-margin">
           <article class="container">
             <div class="row">
               <div class="col-md-12">
                 <h1> Randonnées</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
                 <p>
-                    Pour le plus grand plaisir des petits et des grands, il existe 
-                    un grand nombres de randonnées au niveau de difficultés variés
-                    pour découvrir le parc naturel des pyrénnées aux alentours de 
+                    Pour le plaisir des petits et des grands, il existe 
+                    de nombreuses de randonnées au niveau de difficultés variées
+                    pour découvrir le parc naturel des Pyrénées aux alentours de 
                     Fontpédrouse. 
                     Au detours de ces sentiers nos aventuriers auront la 
-                    chance s'y découvrir une faune et une flore préservées. Les plus 
-                    chanceux d'entre vous decouvriront que les Izars sont de vrai top
-                    model. 
+                    chance d'y découvrir une faune et une flore préservées. Les plus 
+                    chanceux d'entre vous decouvriront que les Izards prennent la pose
+                    pour les photographes. 
                 </p>
                 <p>
                   Pour faciliter votre organisation voici les randonnées les plus 
-                  notables organisées par dificultée. Pour plus de détail cliquez 
+                  notables avec leur niveau de dificultée. Nous utilisons la 
+                  classification national expliquée sur le site 
+                  <a href="https://www.ffrandonnee.fr/data/CMS/files/cotation/FFRANDO-Guide-cotation.pdf"
+                     target="_blank"
+                     class="hikes-link">
+                    https://www.ffrandonnee.fr
+                  </a>. Pour plus de détail cliquez 
                   sur le nom de la randonnée. Certaine de ces randonnées peuvent
                   être combinées si vous le souhaitez. 
                 </p>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <h2> Randonnées Vertes</h2>
-                <h4 class="hikes-tooltip">Le château de Prats-Balaguer
-                  <span class="hikes-tooltip-text">
-                    <table class="hikes-sum">
-                      <tr>
-                        <td class="label">Type</td>
-                        <td class="value">Aller-Retour</td>
-                      </tr>
-                      <tr>
-                        <td class="label">Départ</td>
-                        <td class="value">Fontpédrouse</td>
-                      </tr>
-                      <tr>
-                        <td class="label">Denivelé</td>
-                        <td class="value">350m</td>
-                      </tr>
-                      <tr>
-                        <td class="label">Distance</td>
-                        <td class="value">6km</td>
-                      </tr>
-                      <tr>
-                        <td class="label">Durée estimée</td>
-                        <td class="value">2h30</td>
-                      </tr>
-                    </table>
-                  </span>
-                </h4>
-                <h4>La retenue d'Aumet</h4>
-                <h4>Piste de Farradou</h4>
-                <h4>Le pont Séjourné</h4>
-              </div>
-              <div class="col-md-4">
-                <h2> Randonnées Bleues</h2>
-                <h4>Mas Baret</h4>
-                <h4>Refuge des Cortals</h4>
-                <h4>Etang de la Carança</h4>
-                <h4>Ras de la Carança</h4>
-                <h4>Col de la Mitja (par la piste)</h4>
-                <h4>Clots de Monellet</h4>
-              </div>
-              <div class="col-md-4">
-                <h2> Randonnées Rouges</h2>
-                <h4>Le Couroucoucouil sous toutes ces coutures</h4>
-                <h4>Pic Rodò</h4>
-                <h4>Col des Noufonts</h4>
-                <h4>Col de la Mitja (par GR10)</h4>
-                <h4>Le Pic du Rodoune</h4>
-                <h4>Le Pic du Gallinas</h4>
+              <div class="col-md-6">
+                <img src="img\hikes\regulation\legend.png"
+                     alt="legend of the hikes classification"
+                     class="img-responsive">
               </div>
             </div>
+            <div class="row" style="padding-top: 10px;">
+              <div class="col-md-6">
+                <div class = "row">
+                  <div class="col-md-12 regulation-div">
+                    <img src="img\hikes\regulation\E2.jpg" 
+                         alt="Effort level 2" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\T2.jpg" 
+                         alt="Technicity level 3" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\R2.jpg" 
+                         alt="Risk level 2" 
+                         class="regulation-img">
+                  <a href="hikes_details\prats_castel.html">
+                      <h4 class="hike-name">Le château de Prats-Balaguer</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class="col-md-12 regulation-div">
+                    <img src="img\hikes\regulation\E2.jpg" 
+                         alt="Effort level 2" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\T3.jpg" 
+                         alt="Technicity level 3" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\R2.jpg" 
+                         alt="Risk level 2" 
+                         class="regulation-img">
+                  <a href="hikes_details\aumet.html">
+                      <h4 class="hike-name">La retenue d'Aumet</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class="col-md-12 regulation-div">
+                    <img src="img\hikes\regulation\E3.jpg" 
+                         alt="Effort level 3" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\T3.jpg" 
+                         alt="Technicity level 3" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\R3.jpg" 
+                         alt="Risk level 3" 
+                         class="regulation-img">
+                  <a href="hikes_details\mitja.html">
+                      <h4 class="hike-name">Col Mitja (par le GR10)</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class = "row">
+                  <div class="col-md-12 regulation-div">
+                    <img src="img\hikes\regulation\E4.jpg" 
+                         alt="Effort level 4" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\T3.jpg" 
+                         alt="Technicity level 3" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\R3.jpg" 
+                         alt="Risk level 3" 
+                         class="regulation-img">
+                  <a href="hikes_details\redoun.html">
+                      <h4 class="hike-name">Le Pic du Redoun</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class="col-md-12 regulation-div">
+                    <img src="img\hikes\regulation\E4.jpg" 
+                         alt="Effort level 4" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\T3.jpg" 
+                         alt="Technicity level 3" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\R3.jpg" 
+                         alt="Risk level 3" 
+                         class="regulation-img">
+                  <a href="hikes_details\gallinas.html">
+                      <h4 class="hike-name">Le Pic du Gallinas</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class="col-md-12 regulation-div">
+                    <img src="img\hikes\regulation\E4.jpg" 
+                         alt="Effort level 4" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\T3.jpg" 
+                         alt="Technicity level 1" 
+                         class="regulation-img">
+                    <img src="img\hikes\regulation\R3.jpg" 
+                         alt="Risk level 1" 
+                         class="regulation-img">
+                  <a href="hikes_details\coucouroucouil.html">
+                      <h4 class="hike-name">Le Coucouroucouil sous toutes ses coutures</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <!--
+                  Piste de Farradou
+                  Le pont Séjourné
+                  Mas Baret
+                  Refuge des Corrals
+                  Etang de la Carança
+                  Ras de la Carança
+                  Clots de Monellet
+                  Pic Rodò</h4>
+                  Col des Noufonts
+                  Col de la Mitja (par GR10)
+                -->
           </article>
         </section>
         <footer>
@@ -330,6 +254,11 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/jquery-3.1.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script>
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          })
+        </script>
     
     </body>
 </html>

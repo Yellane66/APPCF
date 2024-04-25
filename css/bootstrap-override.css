@@ -345,6 +345,11 @@ a {
     color: #333;
 }
 
+p.event-news a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 a:hover {
     text-decoration: none;
     color: #1A2184;

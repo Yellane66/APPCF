@@ -1,0 +1,25 @@
+[
+    
+    {
+        "title": "Appel aux dons restauration de l’église de la trinité de Prats-Balaguer",
+        "description": "Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannent le QR code.",
+        "url": "https://www.fondation-patrimoine.org/les-projets/eglise-de-la-trinite-et-sainte-marie-a-fontpedrouse/88035",
+        "linked-monument": "Eglise de Prats-Balaguer",
+        "date": "2025-12-25",
+        "tags": ["eglise-pb"]
+    },{
+        "title": "Retrouvée",
+        "description": "La Vierge Romane à l’enfant de Prats-Balaguer a été retrouvée. En décembre 2024, un mail nous à permis de retrouver la trace de la vierge Romane à l’enfant de Prats-Balaguer, disparue depuis plusieurs décénies. Après vérification, il s’est avéré que cette dernière se trouvait dans une collection privée en Catalogne. Nous sommes maintenant en procedure de restitution. Toutes les informations sur les aventures de cette status sont disponivle dans le bulletin 2025.",
+        "date": "2025-08-15",
+        "linked-monument": "Vierge Romane",
+        "tags": ["vierge-romane"]
+    },
+    {
+        "title": "Nouveau Bulletin Municipal",
+        "description": "Le bulletin municipal 2025 est disponible en ligne. Vous pouvez le consulter sur notre site web ou le télécharger directement au format PDF. Ce bulletin contient des informations importantes sur les projets en cours, les événements à venir et les initiatives communautaires.",
+        "linked-monument": "Bulletin",
+        "date": "2025-07-01",
+        "tags": ["bulletin-municipal", "informations"]
+    }
+
+]

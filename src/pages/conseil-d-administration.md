@@ -1,8 +1,7 @@
 ---
 layout: base.html
-title: APPCF
-description: Découvrez l'histoire de l'APPCF
-excerpt: Association de Protection du Patrimoine de la Commune de Fontpédrouse – Prats-Balaguer – Saint-Thomas
+title: Conseil d'administration et Bureau
+description: Découvrez nos membres
 permalink: /conseil-d-administration.html
 ---
 

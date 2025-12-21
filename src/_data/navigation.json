@@ -7,8 +7,8 @@
   },
   "navigation": [
     {
-      "label": "Accueil",
-      "url": "/index.html",
+      "label": "APPCF",
+      "url": "#",
       "submenu": [
         {
           "label": "Qui sommes-nous ?",
@@ -33,16 +33,20 @@
       "url": "#",
       "submenu": [
         {
-          "label": "Liste Patrimoine Protégé",
-          "url": "/protected-heritage.html"
+          "label": "Eglise de Prats-Balaguer",
+          "url": "/eglise-de-prats-balaguer.html"
         },
         {
           "label": "Mémorial Internet",
           "url": "/internet-memorial.html"
         },
         {
-          "label": "Littérature",
-          "url": "/literature.html"
+          "label": "Vierge Romane à l’enfant",
+          "url": "/vierge-romane.html"
+        },
+        {
+          "label": "Vierge et Martyre Sainte Catherine d’Alexandrie",
+          "url": "/vierge-msca.html"
         }
       ]
     },
@@ -54,21 +58,6 @@
     {
       "label": "Bulletins",
       "url": "/bulletins.html",
-      "submenu": null
-    },
-    {
-      "label": "Avis de Recherche",
-      "url": "/search-warrant.html",
-      "submenu": null
-    },
-    {
-      "label": "Randonnées",
-      "url": "/hikes.html",
-      "submenu": null
-    },
-    {
-      "label": "Contact",
-      "url": "/contact.html",
       "submenu": null
     }
   ]

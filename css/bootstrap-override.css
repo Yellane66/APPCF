@@ -1,0 +1,38 @@
+/*###########################################################################*/
+/*# Bootstrap-Override CSS page                                             #*/
+/*###########################################################################*/
+
+/*## BODY                                                                  ##*/
+
+@font-face {
+    font-family: 'geometry_soft_probold_n';
+    src: url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.eot');
+    src: url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.woff') format('woff'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.ttf') format('truetype'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.svg#geometry_soft_probold_n') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('../fonts/Calligraffiti-webfont.eot');
+    src: url('../fonts/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Calligraffiti-webfont.woff') format('woff'),
+         url('../fonts/Calligraffiti-webfont.ttf') format('truetype'),
+         url('../fonts/Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, section {
+    background-color: #D4EEEF;
+}
+
+.navbar {
+    background-color: #1A2184;
+    border-color: #0E113F;
+    margin-bottom:0;
+}

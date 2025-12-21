@@ -21,6 +21,10 @@
         {
           "label": "Le mot du Président",
           "url": "/le-mot-du-president.html"
+        },
+        {
+          "label": "Conseil d'Administration",
+          "url": "/conseil-d-administration.html"
         }
       ]
     },

@@ -7,7 +7,7 @@
   --secondary-color: #3498db;
   --accent-color: #e74c3c;
   --text-color: #333;
-  --bg-color: #5bd1d7;
+  --bg-color: #d4eeef;
 }
 
 body {
@@ -132,7 +132,7 @@ h2 {
 
 /* Footer */
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
   color: #ecf0f1;
   margin-top: auto;
 }
@@ -206,4 +206,11 @@ a:hover {
 
 .border-primary {
   border-color: var(--secondary-color) !important;
+}
+
+.img-bulletin {
+    max-height:300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px
 }

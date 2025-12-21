@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "APPCF - Association de Protection du Patrimoine",
+    "description": "Association de Protection du Patrimoine de la Commune de Fontpédrouse – Prats-Balaguer – Saint-Thomas",
+    "url": "https://appcf.org",
+    "lang": "fr"
+  },
+  "navigation": [
+    {
+      "label": "Accueil",
+      "url": "/index.html",
+      "submenu": [
+        {
+          "label": "Qui sommes-nous ?",
+          "url": "/index.html"
+        },
+        {
+          "label": "Notre Histoire",
+          "url": "/notre-histoire.html"
+        },
+        {
+          "label": "Le mot du Président",
+          "url": "/le-mot-du-president.html"
+        }
+      ]
+    },
+    {
+      "label": "Patrimoine",
+      "url": "#",
+      "submenu": [
+        {
+          "label": "Liste Patrimoine Protégé",
+          "url": "/protected-heritage.html"
+        },
+        {
+          "label": "Mémorial Internet",
+          "url": "/internet-memorial.html"
+        },
+        {
+          "label": "Littérature",
+          "url": "/literature.html"
+        }
+      ]
+    },
+    {
+      "label": "Actualités",
+      "url": "/events.html",
+      "submenu": null
+    },
+    {
+      "label": "Bulletins",
+      "url": "/bulletins.html",
+      "submenu": null
+    },
+    {
+      "label": "Avis de Recherche",
+      "url": "/search-warrant.html",
+      "submenu": null
+    },
+    {
+      "label": "Randonnées",
+      "url": "/hikes.html",
+      "submenu": null
+    },
+    {
+      "label": "Contact",
+      "url": "/contact.html",
+      "submenu": null
+    }
+  ]
+}

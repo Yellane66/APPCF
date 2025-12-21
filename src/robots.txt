@@ -1,0 +1,7 @@
+# robots.txt
+User-agent: *
+Allow: /
+Disallow: /_site/
+Disallow: /src/
+
+Sitemap: https://appcf.org/sitemap.xml

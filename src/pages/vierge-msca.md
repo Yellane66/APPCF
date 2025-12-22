@@ -14,8 +14,51 @@ permalink: /vierge-msca.html
         </div>
     </div>
     <div class="col-md-6">
-        Statue d’environ 50 cm de haut, en bois sculpté. Elle est datée du XIVème siècle.
-Cette statue a été volée en juin 1991.
+        <div class="row">
+            <h4>Description</h4>
+            <p>
+            Statue d’environ 50 cm de haut, en bois sculpté. Elle est datée du XIVème siècle.
+            Cette statue a été volée en juin 1991.
+            </p>
+        </div>
+        <div class="row">
+            <h4>Avis de Recherche</h4>
+            <div style="text-align: center; margin: 20px 0;">
+                <a href="avis-recherche/SteCatherine/FR-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/french.png" alt="French" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/CAT-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/catalan.png" alt="Catalan" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/ESP-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/spanish.png" alt="Spanish" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/EN-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/english.png" alt="English" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/CH-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/china.png" alt="Chinese" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/DE-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/german.png" alt="German" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/IT-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/italian.png" alt="Italian" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/JP-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/japanese.png" alt="Japanese" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/NL-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/netherlands.png" alt="Dutch" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/PL-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/polish.png" alt="Polish" style="margin: 10px; height: 40px;"/>
+                </a>
+                <a href="avis-recherche/SteCatherine/RU-SteCatherine.pdf" target="_blank">
+                    <img src="img/flags/russian.png" alt="Russian" style="margin: 10px; height: 40px;"/>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -67,6 +67,6 @@ permalink: /index.html
     <div class="container text-center">
         <h2>Rejoignez-nous!</h2>
         <p>Devenez membre de l'APPCF et participez à la protection du patrimoine local</p>
-        <a href="/contact.html" class="btn btn-light btn-lg">Nous Contacter</a>
+        <a href="mailto:appcf66@gmail.com" class="btn btn-light btn-lg">Nous Contacter</a>
     </div>
 </section>

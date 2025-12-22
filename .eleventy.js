@@ -3,10 +3,7 @@ const markdownIt = require("markdown-it");
 module.exports = function(eleventyConfig) {
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("pdf");
-  eleventyConfig.addPassthroughCopy("Photo");
-  eleventyConfig.addPassthroughCopy("Fontpedrouse");
+  eleventyConfig.addPassthroughCopy("avis-recherche");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("robots.txt");

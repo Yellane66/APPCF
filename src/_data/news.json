@@ -2,24 +2,76 @@
     
     {
         "title": "Appel aux dons restauration de l’église de la trinité de Prats-Balaguer",
-        "description": "Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannent le QR code.",
+        "description": "Nous avons toujours besoin de vous pour le projets de restauration de l’église de la trinité de Prats-Balaguer. Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannent le QR code.",
         "url": "https://www.fondation-patrimoine.org/les-projets/eglise-de-la-trinite-et-sainte-marie-a-fontpedrouse/88035",
         "linked-monument": "Eglise de Prats-Balaguer",
-        "date": "2025-12-25",
+        "img": "img/patrimoine/eglisePB/1-eglise-PB.png",
+        "date": "Décembre 2025",
+        "tags": ["eglise-pb"]
+    },
+    {
+        "title": "La recherche continue!",
+        "description": "Après le succès de la recherche pour la Vierge Romane à l'enfant, nous rappelons que nous sommes toujours à la recherche de la Vierge et Martyre Sainte Catherine d’Alexandrie, disparue depuis plusieurs décénies. Si vous avez des informations sur cette oeuvre, n’hésitez pas à nous contacter. Plus d'information dans nos avis de recherche.",
+        "url": "/vierge-msca.html",
+        "linked-monument": "Vierge et Martyre Sainte Catherine d’Alexandrie",
+        "img": "img/patrimoine/vierge-msca/st_catherine.png",
+        "date": "Décembre 2025",
+        "tags": ["vierge-msca"]
+    },{
+        "title": "Loto du patrimoine - 150 000 euros pour l’église de la trinité de Prats-Balaguer",
+        "description": "L'église de la trinité de Prats-Balaguer bénéficiera de 150 000 euros grâce au loto du patrimoine 2025.",
+        "url": "https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/150-000-euros-pour-la-restauration-un-joli-cadeau-de-noel-pour-cette-eglise-romane-3269879.html",
+        "linked-monument": "Eglise de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/1-eglise-PB.png",
+        "date": "Décembre 2025",
+        "tags": ["eglise-pb"]
+    },{
+        "title": "Loto du patrimoine - L’église de la trinité de Prats-Balaguer",
+        "description": "L'église de la trinité de Prats-Balaguer a été sélectionnée pour bénéficier du loto du patrimoine 2025.",
+        "url": "https://madeinperpignan.com/loto-patrimoine-campagne-2025-pyrenees-orientaes-renovation-eglise-millenaire-fontpedrouse/",
+        "linked-monument": "Eglise de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/1-eglise-PB.png",
+        "date": "Septembre 2025",
         "tags": ["eglise-pb"]
     },{
         "title": "Retrouvée",
         "description": "La Vierge Romane à l’enfant de Prats-Balaguer a été retrouvée. En décembre 2024, un mail nous à permis de retrouver la trace de la vierge Romane à l’enfant de Prats-Balaguer, disparue depuis plusieurs décénies. Après vérification, il s’est avéré que cette dernière se trouvait dans une collection privée en Catalogne. Nous sommes maintenant en procedure de restitution. Toutes les informations sur les aventures de cette status sont disponivle dans le bulletin 2025.",
-        "date": "2025-08-15",
+        "date": "Août 2025",
         "linked-monument": "Vierge Romane",
+        "img": "img/patrimoine/vierge-romane/vierge.jpg",
         "tags": ["vierge-romane"]
     },
     {
-        "title": "Nouveau Bulletin Municipal",
-        "description": "Le bulletin municipal 2025 est disponible en ligne. Vous pouvez le consulter sur notre site web ou le télécharger directement au format PDF. Ce bulletin contient des informations importantes sur les projets en cours, les événements à venir et les initiatives communautaires.",
+        "title": "Nouveau Bulletin",
+        "description": "Le bulletin 2025 est disponible. Vous pouvez retrouver toutes les informations sur ce numéro sur la page bulletin.",
         "linked-monument": "Bulletin",
-        "date": "2025-07-01",
-        "tags": ["bulletin-municipal", "informations"]
+        "date": "Juillet 2025",
+        "tags": ["bulletin", "informations"]
+    },{
+        "title": "Appel aux dons restauration de l’église de la trinité de Prats-Balaguer",
+        "description": "Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannent le QR code.",
+        "url": "https://www.fondation-patrimoine.org/les-projets/eglise-de-la-trinite-et-sainte-marie-a-fontpedrouse/88035",
+        "linked-monument": "Eglise de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/1-eglise-PB.png",
+        "date": "Décembre 2023",
+        "tags": ["eglise-pb"]
+    },
+    {
+        "title": "Projet de restauration de l’église de la trinité de Prats-Balaguer",
+        "description": "Eglise Sainte-Marie de la Trinité de Prats-Balaguer Modélisation numérique 3D Haute Définition (Réalisation par la société « Art Graphique et Patrimoine »). \\nPlus d'information disponible sur le site de la Fondation de la Sauvegarde de l'Art Français.",
+        "url": "https://www.sauvegardeartfrancais.fr/actualites/mecenat-artgp/",
+        "linked-monument": "Eglise de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/1-eglise-PB.png",
+        "date": "Décembre 2023",
+        "tags": ["eglise-pb"]
+    },
+    {
+        "title": "Avis de Recherche - Vierge et Martyre Sainte Catherine d’Alexandrie",
+        "description": "Nous sommes toujours à la recherche de la Vierge et Martyre Sainte Catherine d’Alexandrie, disparue depuis plusieurs décénies. Si vous avez des informations sur cette oeuvre, n’hésitez pas à nous contacter. Plus d'information dans nos avis de recherche.",
+        "url": "/vierge-msca.html",
+        "linked-monument": "Vierge et Martyre Sainte Catherine d’Alexandrie",
+        "img": "img/patrimoine/vierge-msca/st_catherine.png",
+        "date": "Décembre 2023",
+        "tags": ["vierge-msca"]
     }
-
 ]

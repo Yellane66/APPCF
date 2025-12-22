@@ -73,5 +73,13 @@
         "img": "img/patrimoine/vierge-msca/st_catherine.png",
         "date": "Décembre 2023",
         "tags": ["vierge-msca"]
+    },
+    {
+        "title": "Avis de Recherche - Vierge Romane à l’enfant",
+        "description": "Nous sommes toujours à la recherche de la Vierge Romane à l’enfant, disparue depuis plusieurs décénies. Si vous avez des informations sur cette oeuvre, n’hésitez pas à nous contacter. Plus d'information dans nos avis de recherche.",
+        "linked-monument": "Vierge Romane à l’enfant",
+        "img": "img/patrimoine/vierge-romane/vierge.jpg",
+        "date": "Décembre 2023",
+        "tags": ["vierge-romane"]
     }
 ]

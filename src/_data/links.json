@@ -1,0 +1,26 @@
+[
+    {
+        "url": "http://www.parc-pyrenees-catalanes.fr/",
+        "img": "img/links/parc_catalan.jpg"
+    },
+    {
+        "url": "http://www.bains-saint-thomas.fr/",
+        "img": "img/links/SaintTh.png"
+    },
+    {
+        "url": "https://shem.fr/",
+        "img": "img/links/shem_logo.png"
+    },
+    {
+        "url": "https://www.rempart.com/fr/qui-sommes-nous/",
+        "img": "img/Rempart.png"
+    },
+    {
+        "url": "https://www.fondation-patrimoine.org/",
+        "img": "img/links/Fondation-du-Patrimoine.png"
+    },
+    {
+        "url": "https://www.sauvegardeartfrancais.fr/",
+        "img": "img/links/SAF-logo-large.png"
+    }
+]

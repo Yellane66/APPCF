@@ -22,6 +22,7 @@ permalink: /vierge-romane.html
         En 1954 elle est classée monument historique.
         </p><p>
         Elle a été volée en juin 1975, nous avons retrouvé sa trace en 2024.
+        </p>
     </div>
 </div>
 

@@ -13,6 +13,15 @@ permalink: /eglise-de-prats-balaguer.html
                 style="max-width: 90%;"/>
         </div>
     </div>
+    <div class="col-md-6">
+        <p>
+        L'église de la Trinité et Sainte-Marie, située au hameau de Prats-Balaguer sur la commune de Fontpédrouse à 1300 mètres d'altitude, est un édifice religieux romane datant du XIe siècle. Elle représente un exemple remarquable de l'architecture religieuse romane des Pyrénées catalanes, avec ses caractéristiques typiques : chevet orienté et clocher qui ponctue le paysage.
+        </p><p>
+        Au fil des siècles, l'église a été transformée par des ajouts successifs, notamment l'ajout de chapelles latérales et d'une sacristie au XVIIIe siècle. Un vieux cimetière borde l'édifice au sud. L'église domine la vallée de la Têt et demeure un témoignage architectural important de la région.
+        </p><p>
+        Elle se distingue particulièrement par son rare ensemble classé de toiles constituant le décor de la Semaine Sainte, appelé « Monument » en catalan. Elle est l'unique église du département à avoir conservé la quasi-totalité des éléments composant ce décor et à l'avoir installé de manière permanente.
+        </p>
+    </div>
 </div>
 <br>
 

@@ -18,10 +18,13 @@ permalink: /bulletins.html
             <p>
                 Au sommaire de ce bulletin: <br>
                 <ul>
-                    {% set items = bulletin.summary.split(', ') %}
-                    {% for item in items %}
-                        <li>{{ item }}</li>
-                    {% endfor %}
+                    {% if bulletin.summary is iterable and bulletin.summary is not string %}
+                        {% for item in bulletin.summary %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    {% else %}
+                        <li>{{ bulletin.summary }}</li>
+                    {% endif %}
                 </ul>
             </p>
         </div>

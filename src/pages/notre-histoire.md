@@ -48,10 +48,11 @@ permalink: /notre-histoire.html
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-3 col-sm-2">        
-            <img src="img/rip.svg" 
+        <div class="col-xs-3 col-sm-2" style="text-align:center">        
+            <img src="img\Chevalier_de_l'ordre_des_Palmes_académiques.png" 
                 alt="palme Chevalier de l'Ordre des Palmes Académiques" 
-                class="img-responsive">    
+                class="img-responsive"
+                style="max-height: 150px; padding-bottom: 10px;">    
         </div>
         <div class="col-xs-7 col-sm-8 col-md-9">
             Jean NICLOUX (1934-2022), Président d’Honneur et fondateur de l’APPCF, est fait Chevalier de l’Ordre des Palmes Académiques sur proposition de l’APPCF, des Mairies de Fontpédrouse et de Rustiques (Aude).
@@ -68,6 +69,31 @@ permalink: /notre-histoire.html
             <img src="img/16SIPC.png" 
                 alt="affiche 16ème salon international du Patrimoine Culturel" 
                 class="img-responsive"> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">        
+            <h3>2024</h3>
+            <p>Après 40 ans d’efforts et d’attente, les démarches de l’association ont permis de localiser à l’étranger la Vierge de Prats-Balaguer volée en 1975</p>
+        </div>
+    </div>  
+    <div class="row">   
+        <div class="col-md-12">
+            <h3>2025</h3>
+        </div>
+    </div>     
+    <div class="row">    
+        <div class="col-xs-3 col-sm-2">        
+            <img src="img\links\logo bern.jpg" 
+                alt="Logo du loto du patrimoine" 
+                class="img-responsive">    
+        </div><div class="col-xs-3 col-sm-2">        
+            <img src="img\P1050993-Recadrage-2.jpg" 
+                alt="image de l'eglise" 
+                class="img-responsive">    
+        </div>
+        <div class="col-xs-4 col-sm-5 col-md-6">
+            Le projet de restauration de l’église de Prats-Balaguer est sélectionné par la Mission Bern de la Fondation du patrimoine pour les Pyrénées-Orientales.<br/>
         </div>
     </div>
 </section>

@@ -13,7 +13,7 @@ permalink: /index.html
     </div>
     <div class="row">
         <div class="col-md-1">
-            <img src="/img/Rempart.png" alt="Logo Remparts" class="img-fluid mt-5">
+            <img src="img\links\Nouveau_Logo_fondation_patrimoine.png" alt="Logo Fondation du patrimoine" class="img-fluid mt-5">
         </div>
         <div class="col-md-5">
             <h2>Présentation</h2>
@@ -23,8 +23,8 @@ permalink: /index.html
                 16 juillet 1985 par M. Jean Nicloux (1934-2022), qui en a été le président jusque fin 2015.
             </p>
             <p>
-                En 2023, l'association compte 75 adhérents. La cotisation annuelle de 2023 est de 13€ et 
-                comprend une publication de l'association. L'APPCF est membre de Remparts.
+                En 2023, l'association compte 75 adhérents. La cotisation annuelle de 2025 est de 15€ et 
+                comprend une publication de l'association. L’APPCF est adhérente à la Fondation du patrimoine.
             </p>
             <h2>Nos objectifs</h2>
             <p>

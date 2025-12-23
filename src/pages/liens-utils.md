@@ -1,6 +1,6 @@
 ---
 layout: page.html
-title: Liens utils
+title: Liens utiles
 description: Information lié à la commune
 permalink: /links.html
 ---

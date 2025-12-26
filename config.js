@@ -19,13 +19,13 @@ module.exports = {
     social: {
       facebook: "",      // e.g., "https://facebook.com/appcf"
       twitter: "",       // e.g., "https://twitter.com/appcf"
-      instagram: "",     // e.g., "https://instagram.com/appcf"
+      instagram: "https://www.instagram.com/appcf.66/#",     // e.g., "https://instagram.com/appcf"
       youtube: "",       // e.g., "https://youtube.com/@appcf"
     },
 
     // Contact Information
     contact: {
-      email: "contact@appcf.org",      // Update this
+      email: "appcf66@gmail.com",      // Update this
       phone: "+33 6 00 00 00 00",      // Update this
       address: "Fontpédrouse, 66360",  // Update this
     },
@@ -37,7 +37,7 @@ module.exports = {
       founded: 1985,
       foundedBy: "Jean Nicloux",
       members: 75,
-      membershipFee: "13€ (annuel)",
+      membershipFee: "15€ (annuel)",
     }
   },
 
@@ -65,8 +65,8 @@ module.exports = {
     googleAnalytics: "",                    // Add your Google Analytics ID (e.g., G-XXXXXXXXXX)
     googleSiteVerification: "",             // Add verification code
     bingWebmasterTools: "",                 // Add Bing verification
-    keywords: "patrimoine, Fontpédrouse, Prats-Balaguer, Saint-Thomas, randonnées, APPCF",
-    socialImage: "/img/og-image.jpg",       // Image for social sharing
+    keywords: "patrimoine, Fontpédrouse, Prats-Balaguer, Saint-Thomas, randonnées, APPCF, vierge romane",
+    socialImage: "/img/icon5.png",       // Image for social sharing
   },
 
   // Features to enable/disable

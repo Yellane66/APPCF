@@ -83,18 +83,18 @@
 - [ ] Open browser to `http://localhost:8080`
 
 ### Verification (5 minutes)
-- [ ] Home page loads
-- [ ] Navigation menu works
-- [ ] Links don't show 404 errors
-- [ ] Mobile view works (press F12)
-- [ ] Images load properly
+- [x] Home page loads
+- [x] Navigation menu works
+- [x] Links don't show 404 errors
+- [x] Mobile view works (press F12)
+- [x] Images load properly
 
 ### Customization (30 minutes)
 - [ ] Update `config.js` with your info
-- [ ] Edit `src/_data/navigation.json` if needed
-- [ ] Update home page (`src/pages/index.md`)
-- [ ] Update contact page (`src/pages/contact.md`)
-- [ ] Test changes in `http://localhost:8080`
+- [x] Edit `src/_data/navigation.json` if needed
+- [x] Update home page (`src/pages/index.md`)
+- [x] Update contact page (`src/pages/contact.md`)
+- [x] Test changes in `http://localhost:8080`
 
 ### Content (Time varies)
 - [ ] Create any additional pages you need

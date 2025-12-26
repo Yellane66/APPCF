@@ -1,6 +1,9 @@
 const markdownIt = require("markdown-it");
+const config = require("./config.js");
 
 module.exports = function(eleventyConfig) {
+  // Add global data from config
+  eleventyConfig.addGlobalData("site", config.site);
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("avis-recherche");

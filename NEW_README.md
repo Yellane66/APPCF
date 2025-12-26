@@ -154,3 +154,9 @@ The site is fully responsive and works on:
 ---
 
 **Questions?** Review the Eleventy documentation: https://www.11ty.dev/
+
+**To check**
+The following urls:
+
+- https://appcf66.org/bounce_Font.html
+- https://appcf66.org/bounce_Rustiques.html

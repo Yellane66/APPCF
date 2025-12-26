@@ -44,7 +44,7 @@ jobs:
           local-dir: ./_site/
           server-dir: /
           # Use SFTP (more secure) - change to 21 for regular FTP
-          port: 22
+          port: 21
           protocol: ftp
           # Only upload changed files (faster)
           dangerous-clean-slate: true

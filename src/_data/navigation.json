@@ -1,0 +1,68 @@
+{
+  "site": {
+    "title": "APPCF - Association de Protection du Patrimoine",
+    "description": "Association de Protection du Patrimoine de la Commune de Fontpédrouse – Prats-Balaguer – Saint-Thomas",
+    "url": "https://appcf.org",
+    "lang": "fr"
+  },
+  "navigation": [
+    {
+      "label": "APPCF",
+      "url": "#",
+      "submenu": [
+        {
+          "label": "Qui sommes-nous ?",
+          "url": "/index.html"
+        },
+        {
+          "label": "Notre Histoire",
+          "url": "/notre-histoire.html"
+        },
+        {
+          "label": "Le mot du Président",
+          "url": "/le-mot-du-president.html"
+        },
+        {
+          "label": "Conseil d'Administration",
+          "url": "/conseil-d-administration.html"
+        },
+        {
+          "label": "Liens Utiles",
+          "url": "/links.html"
+        }
+      ]
+    },
+    {
+      "label": "Patrimoine",
+      "url": "#",
+      "submenu": [
+        {
+          "label": "Eglise de Prats-Balaguer",
+          "url": "/eglise-de-prats-balaguer.html"
+        },
+        {
+          "label": "Mémorial Internet",
+          "url": "/internet-memorial.html"
+        },
+        {
+          "label": "Vierge Romane à l’enfant",
+          "url": "/vierge-romane.html"
+        },
+        {
+          "label": "Vierge et Martyre Sainte Catherine d’Alexandrie",
+          "url": "/vierge-msca.html"
+        }
+      ]
+    },
+    {
+      "label": "Actualités",
+      "url": "/events.html",
+      "submenu": null
+    },
+    {
+      "label": "Bulletins",
+      "url": "/bulletins.html",
+      "submenu": null
+    }
+  ]
+}

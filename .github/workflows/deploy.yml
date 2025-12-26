@@ -1,0 +1,50 @@
+# Automatic deployment to OVH server
+# Triggers on push to master or Revamp branch
+
+name: Deploy to OVH
+
+on:
+  push:
+    branches: 
+      - master
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Build the site
+      - name: Build site
+        run: npm run build
+
+      # 5. Deploy to OVH via SFTP
+      - name: Deploy to OVH
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.OVH_HOST }}
+          username: ${{ secrets.OVH_USERNAME }}
+          password: ${{ secrets.OVH_PASSWORD }}
+          local-dir: ./_site/
+          server-dir: /
+          # Use SFTP (more secure) - change to 21 for regular FTP
+          port: 22
+          protocol: sftp
+          # Only upload changed files (faster)
+          dangerous-clean-slate: true

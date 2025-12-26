@@ -1,0 +1,20 @@
+---
+layout: base.html
+---
+
+<section class="section-margin">
+    <article class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>{{ title }}</h1>
+                {% if excerpt %}
+                    <p class="lead">{{ excerpt }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </article>
+</section>
+
+<section class="container my-5">
+    {{ content | safe }}
+</section>

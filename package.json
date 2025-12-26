@@ -1,0 +1,25 @@
+{
+  "name": "appcf-website",
+  "version": "2.0.0",
+  "description": "Website for APPCF - Association de Protection du Patrimoine de la Commune de Fontpédrouse",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": [
+    "patrimoine",
+    "fontpedrouse",
+    "association"
+  ],
+  "author": "APPCF",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}

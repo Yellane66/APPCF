@@ -1,0 +1,471 @@
+[
+    {
+        "number": 31,
+        "image": "img/covers/B31.png",
+        "alt": "Couverture du bulletin numero 31",
+        "title": "Bulletin Spécial des 40 ans de l’APPCF (2025)",
+        "summary": [
+            "Eglise de la Trinité et Sainte-Marie Prats-Balaguer – Fontpédrouse : Mille ans d’histoire (en vente pour le public ou en contrepartie d’un don pour la collecte du projet de restauration de la Fondation du patrimoine)"
+        ]
+    },{
+        "number": 30,
+        "image": "img/covers/B30.png",
+        "alt": "Couverture du bulletin numero 30",
+        "title": "Bulletin n°30 (2024)",
+        "summary": [
+            "Vierge à l’Enfant du XIIe siècle de Prats-Balaguer volée en 1975 : un signalement parvient à l’APPCF",
+            "Lancement de la visite d’expertise et d’études préparatoires,  utilisation de l’Intelligence Artificielle pour comparer les photos,  réalisation d’une restitution en 3 dimensions, partage d’expérience avec la Commune de Thoisy-le-Désert",
+            "Projet de sauvegarde de l’église de Prats-Balaguer",
+            "Exposition « Patrimoine, Restaurations et Découvertes – Eglise de la Trinité et Sainte-Marie de Prats-Balaguer »",
+            "Candidature 2025 à la Mission Stéphane Bern (Loto du Patrimoine)",
+            "Conférence « Les traginers de Fontpédrouse entre la fin du XVIIIe siècle et le début du XXe siècle » par Adrien BARRERE, doctorant en Histoire",
+            "Hermann Lismann, illustre peintre allemand à Fontpédrouse en 1928"
+        ]
+    },{
+        "number": 29,
+        "image": "img/covers/B29.jpg",
+        "alt": "Couverture du bulletin numero 29",
+        "title": "Bulletin n°29 (2023)",
+        "summary": [
+            "Eglise Sainte-Marie de la Trinité de Prats-Balaguer : le projet de restauration",
+            "Exposition « Faune de nos montagnes catalanes » - Photographies et animaux naturalisés",
+            "Conférence « Le Haut-Conflent à l'époque romaine : exemple du site de Liou» par Jérôme KOTARBA, ingénieur de recherches à l'INRAP",
+            "La « Fondation du Patrimoine »",
+            "La « Fondation La Sauvegrade de l'Art Français"
+        ]
+    },
+    {
+        "number": 28,
+        "image": "img/covers/B28.jpg",
+        "alt": "Couverture du bulletin numero 28",
+        "title": "Bulletin n°28 (2022)",
+        "summary": [
+            "Eglise Sainte-Marie de la Trinité de Prats-Balaguer : les études nécessaires à la restauration ont démarré avec la société « Art Graphique et Patrimoine ». Réalisation de la numérisation 3D HD",
+            "Inauguration de l'écomusée de Fontpédrouse au nom de « Ecomusée Jean NICLOUX »",
+            "Conférence « Les Paillofes des Pyrénées-Orientales» par Louis Bès de l'ANR (2ème partie) et sélection de Pallofes présentées lors de la conférence",
+            "Exposition Photos « 50 ans de notre village à travers les photos de Lucien LLOBERAS »",
+            "Clin d'œil de l'exposition « MONFREID Sous le soleil de GAUGUIN » du Musée Hyacinthe RIGAUD de Perpignan",
+            "Canta-Canta en l'église Ste Marie de la Trinité"
+        ]
+    },
+    {
+        "number": 27,
+        "image": "img/covers/B27.jpg",
+        "alt": "Couverture du bulletin numero 27",
+        "title": "Bulletin n°27 (2021)",
+        "summary": [
+            "Décès de Jean Nicloux, Président d'Honneur et Fondateur de l'APPCF (Fontpédrouse) et de l'APPCR (Rustiques)",
+            "Travaux de restauration de l'église Notre Dame de l'Assomption de Fontpédrouse",
+            "Travaux de restauration de l'église de la Trinité et Sainte-Marie de Prats Balaguer",
+            "Compte-rendu d'intervention du CCRP",
+            "26ème Salon International du Patrimoine Culturel : la Commune de Fontpédrouse est Lauréate Nationale du Prix « Art Graphique et Patrimoine » décerné par la Fondation « Sauvegarde de l'art français »",
+            "Tour de France 2021 à Fontpédrouse",
+            "Carrière de mon arrière-grand-père Antoine Dominique Laurent MAYDAT par Jean MAYDAT",
+            "Ligne de chemin de fer à Fontpédrouse: le Train Jaune déraille",
+            "Compagnie du Midi, recensement des cheminots affectés à la gare de Fontpédrouse en 1931"
+        ]
+    },
+    {
+        "number": 26,
+        "image": "img/covers/B26.jpg",
+        "alt": "Couverture du bulletin numero 26",
+        "title": "Bulletin n°26 (2020)",
+        "summary": [
+            "Jean Nicloux, Président fondateur de l'APPCF, nommé Chevalier dans l'Ordre des Palmes Académiques",
+            "L'Ordre des Palmes Académiques",
+            "L'épidémie de fièvre aphteuse décimait le bétail au début du XXème siècle : une fête votive est décidée pour la faire cesser",
+            "Procession de la Saint Sébastien à Prats-Balaguer ou « Fête des vaches»",
+            "Travaux de restauration de l'église Notre Dame de l'Assomption 2020-2021",
+            "Restauration des 4 panneaux de la vie de la Vierge par les CCRP des P-O",
+            "Restauration de la Statue de la Vierge à l'Enfant par le CCRP des P-O",
+            "Restauration de la toile peinte du Christ au jardin des Oliviers par le CCRP des P-O",
+            "Compte-rendu d'étude et de conservation du buste de Dieu Le Père par le CCRP des P-O",
+            "Numismatique : Histoire de Pallofes par Louis Bès"
+        ]
+    },
+    {
+        "number": 25,
+        "image": "img/covers/B25.jpg",
+        "alt": "Couverture du bulletin numero 25",
+        "title": "Bulletin n°25 (2019)",
+        "summary": [
+            "Projet de sauvegarde et de sécurisation du castell de Prats de Balaguer : les travaux sont terminés !",
+            "Conférence « Le château de Prats-Balaguer dans le réseau des tours de guet du Conflent »",
+            "Dossier « Château de Prats-Balaguer » de M. Claude Parayre",
+            "Exposition 2019 « Château de Prats-Balaguer : Histoire, Art et Artisanat»",
+            "Restauration du panneau « Les Randonnées de Pierrot Rouquet »",
+            "Evolutions du site internet appcf.org",
+            "L'APPCF est désormais sur Instagram avec le compte appcf.66 et #appcf",
+            "Numismatique : Exposition 2018, Conférence 2018, Conférence 2019 de l'ANR",
+            "Numismatique : encore une trouvaille faite à Fontpédrouse en 1916 !",
+            "Les Carnets du train jaune : fidèles à cette superbe collection",
+            "Clôture du cycle du Centenaire 1914-18 : conférence de R.Martinez",
+            "Chorales à Fontpédrouse"
+        ]
+    },
+    {
+        "number": 24,
+        "image": "img/covers/B24.jpg",
+        "alt": "Couverture du bulletin numero 24",
+        "title": "Bulletin n°24 (2018)",
+        "summary": [
+            "Six siècles d'histoire de Catalogne et de Fontpédrouse racontés par les monnaies (1418  -  1966)",
+            "Trésor de l'église de Prats-Balaguer"
+        ]
+    },
+    {
+        "number": 23,
+        "image": "img/covers/B23.jpg",
+        "alt": "Couverture du bulletin numero 23",
+        "title": "Bulletin n°23 (2017)",
+        "summary": [
+            "Journée « Pont Séjourné » du 19 juillet 2017 : hommage au brillant ingénieur : manifestations, conférences, bibliographie et inauguration de l'avenue Paul Séjourné.",
+            "Conférence de A.Durban « Les Bouillouses. L'hydroélectricité et le Génie des Hommes. Tome II 1910-1923. »",
+            "Exposition « Bois des plantes ligneuses de Catalogne et d'Occitanie »",
+            "Projets de la commission culture et patrimoine de la CCCC : panneaux signalétiques",
+            "Présentation du Monument de l'église de Prats-Balaguer",
+            "Centenaire 1914-18 : conférence de R.Martinez et nouveau QR code",
+            "Patrimoine volé : traduction des avis de la recherche de la Vierge romane",
+            "Projet de sauvegarde et de sécurisation du castell de Prats de Balaguer",
+            "Eglise de Fontpédrouse : travaux de restauration du retable"
+        ]
+    },
+    {
+        "number": 22,
+        "image": "img/covers/B22.jpg",
+        "alt": "Couverture du bulletin numero 22",
+        "title": "Bulletin n°22 (2015-2016)",
+        "summary": [
+            "Exposition « Regards et voyage dans le temps »",
+            "Commission culture de la CCCC : projets inventaire et panneaux",
+            "Restauration du système de l'horloge de la Tour David",
+            "Présentation au public du « Monument » de Prats-Balaguer et Conférence de JB.Mathon.",
+            "Ecomusée : mise en place d'une vitrine « coiffes et baratine catalanes »",
+            "Centenaire 14-18 : conférence de R.Martinez « 1916 – L'année de Verdun »",
+            "Conférence de P.Cazenove",
+            "Journées Patrimoine : concert du 17 septembre 2016 à Prats-Balaguer",
+            "Site internet de l'APPCF et Patrimoine volé",
+            "Numismatique : un denier tournois d'un Duc d'Athènes",
+            "Château de Prats-Balaguer : une restauration indispensable"
+        ]
+    },
+    {
+        "number": "DVDspe2015",
+        "image": "img/covers/B21dvd.jpg",
+        "alt": "Couverture du DVD",
+        "title": "DVD spécial (2015) - Outils et Métiers d'autrefois",
+        "summary": [
+            "Jean-Guy PARASSOLS explique avec passion et force de détails les caractéristiques des outils exposés par l'APPCF à l'été 2015. Durée : 1h15"
+        ]
+    },
+    {
+        "number": 21,
+        "image": "img/covers/B21.jpg",
+        "alt": "Page de garde du Bulletin n°21",
+        "title": "Bulletin n°21 (2014-2015)",
+        "summary": [
+            "Dossier guerre 1914-1918 Centenaire (rapport moral)",
+            "Commémoration 70ème Anniversaire du 8 mai 1945",
+            "Conférence Renaud Martinez « 1915, Ne pas Subir »",
+            "Remise Médaille du centenaire 1914-1918",
+            "Exposition « Outils et Métiers d'autrefois »"
+        ]
+    },
+    {
+        "number": "spe2014",
+        "image": "img/covers/B20-21.jpg",
+        "alt": "Page de garde du Bulletin n°",
+        "title": "Bulletin Spécial (2014) - Mémorial internet de Fontpédrouse",
+        "summary": [
+            "Document « Frère Gentius, histoire d'un prêtre missionnaire du village dans la Grande Guerre »",
+            "Ouvrage « Quatre frères de Fontpédrouse dans l'enfer de la Grande Guerre »",
+            "Documentation du site « Mémorial Internet de Fontpédrouse » avec 28 fiches soldats",
+            "Installation du QR code en lave émaillée au monument aux Morts",
+            "Introduction du site internet à la population",
+            "Cycle de 3 conférences avec 3 expositions associées",
+            "Exposition de restitution du projet pédagogique de l'Ecole Primaire"
+        ]
+    },
+    {
+        "number": 20,
+        "image": "img/covers/B20.jpg",
+        "alt": "Page de garde du Bulletin n°20",
+        "title": "Bulletin n°20 (2013)",
+        "summary": [
+            "La régie électrique de Fontpédrouse 2ème partie",
+            "Témoignage JEREZ Louis Chef électricien",
+            "Exposition « Les 100 ans de l'usine hydroélectrique de Fontpédrouse »",
+            "Inauguration « Monument du Jeudi Saint » église P.B",
+            "Description « Monument du Jeudi Saint » J.B. Mathon",
+            "Traduction de l'article en italien"
+        ]
+    },
+    {
+        "number": "spe2012",
+        "image": "img/covers/B19-20.jpg",
+        "alt": "Page de garde du Bulletin n°",
+        "title": "Bulletin Spécial (2012) - Quatre frères de Fontpédrouse",
+        "summary": [
+            "Narration complète de l'histoire des quatre frères CAYROL pendant le premier conflit mondial"
+        ]
+    },
+    {
+        "number": 19,
+        "image": "img/covers/B19.jpg",
+        "alt": "Page de garde du Bulletin n°19",
+        "title": "Bulletin n° 19 (2011)",
+        "summary": [
+            "Hommage à Jordi Pere Cerda",
+            "Souvenir de jeunesse à Prats Balaguer",
+            "Les fours à pain de notre commune",
+            "Pierre gravée de la fontaine de Prats Balaguer",
+            "Complément dossier bulletin n°16"
+        ]
+    },
+    {
+        "number": 18,
+        "image": "img/covers/B18.jpg",
+        "alt": "Page de garde du Bulletin n°18",
+        "title": "Bulletin n°18 (2010)",
+        "summary": [
+            "Hommage à Bernard Jacomy",
+            "Chapiteau au bois sculpté de l'église de Prats-Balaguer",
+            "Liste des Maires de Fontpédrouse et Prats-Balaguer",
+            "Exposition « Les ateliers de Villefranche »",
+            "Exposition « La train jaune »",
+            "Cérémonie de la Semaine Sainte",
+            "Concert chant Choral",
+            "Les gratte-pieds de Fontpédrouse",
+            "La régie municipale électrique de Fontpédrouse"
+        ]
+    },
+    {
+        "number": 17,
+        "image": "img/covers/B17.jpg",
+        "alt": "Page de garde du Bulletin n°17",
+        "title": "Bulletin n°17 (2009)",
+        "summary": [
+            "Le chemin de croix de l'église de Prats-Balaguer",
+            "Marty Michel au siège de Sébastopol",
+            "Marty André le mutin de la mer noire",
+            "Essai interprétation « Fontpédrouse la Rouge »",
+            "Chorale « canta canta » à fontpédrouse"
+        ]
+    },
+    {
+        "number": 16,
+        "image": "img/covers/B16.jpg",
+        "alt": "Page de garde du Bulletin n°16",
+        "title": "Bulletin n°16 (2008)",
+        "summary": [
+            "Joseph Moné, Frère Gentius 1885-1915",
+            "Un réveillon de Noël improvisé",
+            "Exposition 90ème annniversaire du 11 Novembre",
+            "Monument du Jeudi Saint Eglise de Prats",
+            "Découverte du cimetière de Sant Rouma"
+        ]
+    },
+    {
+        "number": 15,
+        "image": "img/covers/B15.jpg",
+        "alt": "Page de garde du Bulletin n°15",
+        "title": "Bulletin n°15 (2007)",
+        "summary": [
+            "El rediquari de Prats Balaguer",
+            "Souvenirs de famille : Joseph Labric",
+            "Les traginers de Fontpédrouse"
+        ]
+    },
+    {
+        "number": 14,
+        "image": "img/covers/B14.jpg",
+        "alt": "Page de garde du Bulletin n°14",
+        "title": "Bulletin n°14 (2006)",
+        "summary": [
+            "Exposition des plus anciennes familles de Fontpédrouse",
+            "Journées Patrimoine Fontpédrouse",
+            "Devoir de mémoire sur Charles Hubert",
+            "Histoire de la famille Maydat",
+            "Aquarelles de M. Galy",
+            "Blason de la maison Saleilles",
+            "Archives paroissiales de Prats Balaguer",
+            "Archives paroissiales Fontpédrouse"
+        ]
+    },
+    {
+        "number": 13,
+        "image": "img/covers/B13.jpg",
+        "alt": "Page de garde du Bulletin n°13",
+        "title": "Bulletin n°13 (2005)",
+        "summary": [
+            "Exposition 1er salon des artistes amateurs",
+            "Les moulins de Fontpédrouse",
+            "Découverte d'un tunnel d'assainissement",
+            "« La Marque » livre posthume de Claude Cortale"
+        ]
+    },
+    {
+        "number": 12,
+        "image": "img/covers/B12.jpg",
+        "alt": "Page de garde du Bulletin n°12",
+        "title": "Bulletin n°12 (2004)",
+        "summary": [
+            "Exposition « Le ras de Carança » par Claude Cortale",
+            "Dédicace du livre « Les enragés du rail »",
+            "Le massif de Carança",
+            "Dessins Michèle Galy",
+            "Découverte bouteille en grès"
+        ]
+    },
+    {
+        "number": 11,
+        "image": "img/covers/B11.jpg",
+        "alt": "Page de garde du Bulletin n°11",
+        "title": "Bulletin n°11 (2003)",
+        "summary": [
+            "Dossier Joseph Calvet dit « El Xiguen »",
+            "Restauration Eglise de Prats Balaguer",
+            "Exposition Dessins J.Roca, sculptures métalliques Yvon Gros",
+            "Dessins Michèle Galy",
+            "Restauration château de Prats Balaguer",
+            "Statue oratoire St Paul",
+            "Prix encouragement BPPO"
+        ]
+    },
+    {
+        "number": 10,
+        "image": "img/covers/B10.jpg",
+        "alt": "Page de garde du Bulletin n°10",
+        "title": "Bulletin n°10 (2002)",
+        "summary": [
+            "Page poétique",
+            "Toponymie historique",
+            "Registre de la Fabrique de la paroisse",
+            "Joseph Calvet dit « El Xiguen »",
+            "Château de Prats Balaguer, Chantier REMPART",
+            "Exposition la guerre d'Algérie",
+            "Exposition La Forêt"
+        ]
+    },
+    {
+        "number": 9,
+        "image": "img/covers/B9.jpg",
+        "alt": "Page de garde du Bulletin n°9",
+        "title": "Bulletin n°9 (2001)",
+        "summary": [
+            "Document sortie église de Fontpédrouse 1952",
+            "L'Isard des Pyrénées",
+            "Exposition peinture J. Roca",
+            "Exposition du SIC de la DDE",
+            "Château de Prats Balaguer, Chantier REMPART"
+        ]
+    },
+    {
+        "number": 8,
+        "image": "img/covers/B8.jpg",
+        "alt": "Page de garde du Bulletin n°",
+        "title": "Bulletin n°8 (2000)",
+        "summary": [
+            "Le train jaune condensé conférence J. Nicloux",
+            "Souvenir du siècle",
+            "Fosse médiévale de Liou",
+            "Le monument aux morts 14/18 – 39/45",
+            "Exposition Fontpédrouse Prats Saint Thomas",
+            "Souvenir philatélique train jaune"
+        ]
+    },
+    {
+        "number": 7,
+        "image": "img/covers/B7.jpg",
+        "alt": "Page de garde du Bulletin n°7",
+        "title": "Bulletin n°7 (1999)",
+        "summary": [
+            "Hommage à Victor Martinez",
+            "La fête des muletiers à Fontpédrouse",
+            "Sondage fosse médievale à Liou",
+            "Exposition les voies de communications",
+            "L'eau à Fontpedrouse Prats, St Thomas"
+        ]
+    },
+    {
+        "number": 6,
+        "image": "img/covers/B6.jpg",
+        "alt": "Page de garde du Bulletin n°6",
+        "title": "Bulletin n°6 (1997-1998)",
+        "summary": [
+            "Répertoire des surnoms des maisons de notre commune",
+            "Exposition à la rencontre de J.Yves Pottier",
+            "Exposition sculpture, peinture, photo",
+            "Le couscouil",
+            "Photographie 1895 Ecole de Prats-Balaguer",
+            "Bibliographie dossiers APPCF"
+        ]
+    },
+    {
+        "number": 5,
+        "image": "img/covers/B5.jpg",
+        "alt": "Page de garde du Bulletin n°5",
+        "title": "Bulletin n°5 (1997)",
+        "summary": [
+            "Au sommaire de ce bulletin un dossier spécial sur les bains de Saint Thomas par J.M Rosenstein."
+        ]
+    },
+    {
+        "number": 4,
+        "image": "img/covers/B4.jpg",
+        "alt": "Page de garde du Bulletin n°4",
+        "title": "Bulletin n°4 (1996-1996)",
+        "summary": [
+            "Les chapelles St Paul",
+            "Els notres noms de pobles en catala",
+            "Art religieux – le moule à hosties",
+            "Descriptif des céramiques trouvées",
+            "Descriptif d'une pierre gravée",
+            "Exposition Fontpédrouse à la recherche de son passé",
+            "Bibliographie dossiers APPCF"
+        ]
+    },
+    {
+        "number": 3,
+        "image": "img/covers/B3.jpg",
+        "alt": "Page de garde du Bulletin n°3",
+        "title": "Bulletin n°3 (1993)",
+        "summary": [
+            "Au sommaire de ce bulletin un dossier spécial sur le petit train jaune à Fontpédrouse."
+        ]
+    },
+    {
+        "number": 2,
+        "image": "img/covers/B2.jpg",
+        "alt": "Page de garde du Bulletin n°2",
+        "title": "Bulletin n°2 (1992-1993)",
+        "summary": [
+            "Château de Prats Balaguer",
+            "Croix du vieux cimetière de Fontpedrouse",
+            "Description mobilier recueilli au vieux cimetière",
+            "Faits divers début Révolution",
+            "Fait divers 1834, décés du berger Jean Gaurenne",
+            "Bibliographie dossiers APPCF"
+        ]
+    },
+    {
+        "number": 1,
+        "image": "img/covers/B1.jpg",
+        "alt": "Page de garde du Bulletin n°1",
+        "title": "Bulletin n°1 (1985-1991)",
+        "summary": [
+            "Restauration de l'église de Prats Balaguer",
+            "Le petit train jaune",
+            "Station thermale de St Thomas les Bains",
+            "Protection des Courrals del Mas",
+            "Restauration médailler guerre 14/18",
+            "Exposition à Olette en 1988",
+            "Bicentenaire Révolution Française",
+            "Chapelle St Thomas les Bains",
+            "Saint Thomas les bains",
+            "Monfreid village de Prats Balaguer",
+            "Vieux cimetière de Fontpédrouse",
+            "Bibliothèque et phototèque"
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+---
+layout: page.html
+title: Bulletins Annuels
+description: Les bulletins annuels publiés par l'APPCF
+permalink: /bulletins.html
+---
+
+<article class="container blt-list">
+    {% for bulletin in bulletins %}
+    <div class="row" id="bulletin{{ bulletin.number }}">
+        <div class="col-sm-4">
+            <img src="{{ bulletin.image }}" 
+                    alt="{{ bulletin.alt }}" 
+                    class="img-responsive img-list img-bulletin">
+        </div>
+        <div class="col-sm-8">
+            <h2>{{ bulletin.title }}</h2> 
+            <p>
+                Au sommaire de ce bulletin: <br>
+                <ul>
+                    {% if bulletin.summary is iterable and bulletin.summary is not string %}
+                        {% for item in bulletin.summary %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    {% else %}
+                        <li>{{ bulletin.summary }}</li>
+                    {% endif %}
+                </ul>
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</article>

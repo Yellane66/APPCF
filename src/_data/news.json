@@ -1,0 +1,102 @@
+[
+    
+    {
+        "title": "Appel aux dons restauration de l’église de la trinité de Prats-Balaguer",
+        "description": "Nous avons toujours besoin de vous pour le projets de restauration de l’église de la trinité de Prats-Balaguer. Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannant le QR code.",
+        "url": "https://www.fondation-patrimoine.org/les-projets/eglise-de-la-trinite-et-sainte-marie-a-fontpedrouse/88035",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/P1050993-Recadrage-2.jpg",
+        "date": "Décembre 2025",
+        "tags": ["eglise-pb"]
+    },
+    {
+        "title": "La recherche continue!",
+        "description": "Après le succès de la recherche pour la Vierge Romane à l'enfant, nous rappelons que nous sommes toujours à la recherche de la Vierge et Martyre Sainte Catherine d’Alexandrie, disparue depuis plusieurs décénies. Si vous avez des informations sur cette oeuvre, n’hésitez pas à nous contacter. Plus d'information dans nos avis de recherche.",
+        "url": "/vierge-msca.html",
+        "linked-monument": "Vierge et Martyre Sainte Catherine d’Alexandrie",
+        "img": "img/patrimoine/vierge-msca/st_catherine.png",
+        "date": "Décembre 2025",
+        "tags": ["vierge-msca"]
+    },{
+        "title": "Loto du patrimoine - 150 000 euros pour l’église de la trinité de Prats-Balaguer",
+        "description": "L'église de la trinité de Prats-Balaguer bénéficiera de 150 000 euros grâce au loto du patrimoine 2025.",
+        "url": "https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/150-000-euros-pour-la-restauration-un-joli-cadeau-de-noel-pour-cette-eglise-romane-3269879.html",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/P1050993-Recadrage-2.jpg",
+        "date": "Décembre 2025",
+        "tags": ["eglise-pb"]
+    },{
+        "title": "Loto du patrimoine - L’église de la trinité de Prats-Balaguer",
+        "description": "L'église de la trinité de Prats-Balaguer a été sélectionnée pour bénéficier du loto du patrimoine 2025.",
+        "url": "https://madeinperpignan.com/loto-patrimoine-campagne-2025-pyrenees-orientaes-renovation-eglise-millenaire-fontpedrouse/",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/P1050993-Recadrage-2.jpg",
+        "date": "Septembre 2025",
+        "tags": ["eglise-pb"]
+    },{
+        "title": "Retrouvée",
+        "description": "La Vierge Romane à l’enfant de Prats-Balaguer a été retrouvée. En décembre 2024, un mail nous à permis de retrouver la trace de la vierge Romane à l’enfant de Prats-Balaguer, disparue depuis plusieurs décénies. Après vérification, il s’est avéré que cette dernière se trouvait dans une collection privée en Catalogne. Nous sommes maintenant en procedure de restitution. Toutes les informations sur les aventures de cette statue sont disponible dans le bulletin 2025.",
+        "date": "Août 2025",
+        "linked-monument": "Vierge Romane",
+        "img": "img/patrimoine/vierge-romane/vierge.jpg",
+        "tags": ["vierge-romane"]
+    },
+    {
+        "title": "Publication d’un Bulletin spécial 2025",
+        "description": "L’église de la Trinité et Sainte-Marie Prats-Balaguer – Fontpédrouse : Mille ans d’histoire » (en vente pour le public ou en contrepartie d’un don pour la collecte du projet de restauration de la Fondation du patrimoine). Vous pouvez retrouver toutes les informations sur ce numéro sur la page bulletin.",
+        "linked-monument": "Bulletin",
+        "img": "img/covers/B31.png",
+        "date": "Août 2025",
+        "tags": ["eglise-pb", "bulletin", "informations"]
+    },{
+        "title": "Eglise de Prats-Balaguer en Réalité Augmentée",
+        "description": "Eglise de Prats-Balaguer en Réalité Augmentée en partenariat avec les sociétés Real Illusions et Exametrics",
+        "url": "https://www.realillusions.io/exametrics-design-3d-real-illusions-unissent-leurs-forces/",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/P1050993-Recadrage-2.jpg",
+        "date": "Juillet 2025",
+        "tags": ["eglise-pb"]
+    },{
+        "title": "Nuit des églises 2025",
+        "description": "Le clocher de l'Eglise Trinité et Sainte-Marie de Prats-Balaguer illustre l’affiche nationale de la Nuit des Eglises 2025",
+        "url": "https://www.fondation-patrimoine.org/les-projets/eglise-de-la-trinite-et-sainte-marie-a-fontpedrouse/88035",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/nde.jpg",
+        "date": "Juin 2025",
+        "tags": ["eglise-pb"]
+    },
+    {
+        "title": "Bulletin  2024",
+        "description": "Sur les traces de la vierge romane à l’enfant. Vous pouvez retrouver toutes les informations sur ce numéro sur la page bulletin.",
+        "linked-monument": "Bulletin",
+        "img": "img/covers/B30.png",
+        "date": "Fevrier 2025",
+        "tags": ["vierge-romane", "bulletin", "informations"]
+    },
+    {
+        "title": "Projet de restauration de l’église de la trinité de Prats-Balaguer",
+        "description": "Eglise Sainte-Marie de la Trinité de Prats-Balaguer Modélisation numérique 3D Haute Définition (Réalisation par la société « Art Graphique et Patrimoine »). Plus d'information disponible sur le site de la Fondation de la Sauvegarde de l'Art Français.",
+        "url": "https://www.sauvegardeartfrancais.fr/actualites/mecenat-artgp/",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/1-eglise-PB.png",
+        "date": "Décembre 2023",
+        "tags": ["eglise-pb"]
+    },
+    {
+        "title": "Avis de Recherche - Vierge et Martyre Sainte Catherine d’Alexandrie",
+        "description": "Nous sommes toujours à la recherche de la Vierge et Martyre Sainte Catherine d’Alexandrie, disparue depuis plusieurs décénies. Si vous avez des informations sur cette oeuvre, n’hésitez pas à nous contacter. Plus d'information dans nos avis de recherche.",
+        "url": "/vierge-msca.html",
+        "linked-monument": "Vierge et Martyre Sainte Catherine d’Alexandrie",
+        "img": "img/patrimoine/vierge-msca/st_catherine.png",
+        "date": "Décembre 2023",
+        "tags": ["vierge-msca"]
+    },
+    {
+        "title": "Avis de Recherche - Vierge Romane à l’enfant",
+        "description": "Nous sommes toujours à la recherche de la Vierge Romane à l’enfant, disparue depuis plusieurs décénies. Si vous avez des informations sur cette oeuvre, n’hésitez pas à nous contacter. Plus d'information dans nos avis de recherche.",
+        "linked-monument": "Vierge Romane à l’enfant",
+        "img": "img/patrimoine/vierge-romane/vierge.jpg",
+        "date": "Décembre 2023",
+        "tags": ["vierge-romane"]
+    }
+]

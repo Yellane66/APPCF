@@ -26,5 +26,17 @@
     {
         "url": "https://www.sauvegardeartfrancais.fr/",
         "img": "img/links/SAF-logo-large.png"
+    },
+    {
+        "url": "https://www.realillusions.io/",
+        "img": "img/links/Real Illusions.png"
+    },
+    {
+        "url": "https://www.exametrics.fr/",
+        "img": "img/links/Exametrics.jpg"
+    },
+    {
+        "url": "https://www.instagram.com/svc_prod/",
+        "img": "img/links/SVP Productions.jpg"
     }
 ]

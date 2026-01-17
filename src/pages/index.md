@@ -13,7 +13,7 @@ permalink: /index.html
     </div>
     <div class="row">
         <div class="col-md-1">
-            <img src="img\links\Nouveau_Logo_fondation_patrimoine.png" alt="Logo Fondation du patrimoine" class="img-fluid mt-5">
+            <img src="img/icon5.png" alt="Logo de l'APPCF. Il represente le train Jaune sur le pont Séjourné" class="img-fluid mt-5">
         </div>
         <div class="col-md-5">
             <h2>Présentation</h2>

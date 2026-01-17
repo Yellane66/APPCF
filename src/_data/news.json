@@ -1,8 +1,16 @@
 [
     
     {
-        "title": "Appel aux dons restauration de l’église de la trinité de Prats-Balaguer",
-        "description": "Nous avons toujours besoin de vous pour le projets de restauration de l’église de la trinité de Prats-Balaguer. Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannant le QR code.",
+        "title": "L'église de la Trinité et Sainte-Marie de Prats-Balaguer à l'honneur au Salon Museum Connections 2026",
+        "description": "A l'invitation de notre partenaire Réal Illusions, l'église de la Trinité de Prats-Balaguer a été mise à l'honneur lors du Salon Museum Connections 2026 (Porte de Versailles 13 & 14 Janvier). Sur le stand étaient présentées 4 impressions 3D de l'église qui ont suscité beaucoup d'intérêt et entrainé de nombreuses démonstrations de l'initative de collecte en réalité augmentée !",
+        "url": "https://www.museumconnections.com/paris-2026/fr/content/list-exp?searchtext=&page=2",
+        "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
+        "img": "img/patrimoine/eglisePB/IMG_9014.jpg",
+        "date": "Janvier 2026",
+        "tags": ["eglise-pb"]
+    },{
+        "title": "Appel aux dons restauration de l’église de la Trinité de Prats-Balaguer",
+        "description": "Nous avons toujours besoin de vous pour le projets de restauration de l’église de la Trinité de Prats-Balaguer. Pour nous aider vous pouvez faire vos don sur le site de la fondation du patrimoine ou scannant le QR code.",
         "url": "https://www.fondation-patrimoine.org/les-projets/eglise-de-la-trinite-et-sainte-marie-a-fontpedrouse/88035",
         "linked-monument": "Eglise Trinité et Sainte-Marie de Prats-Balaguer",
         "img": "img/P1050993-Recadrage-2.jpg",

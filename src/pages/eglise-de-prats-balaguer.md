@@ -8,7 +8,7 @@ permalink: /eglise-de-prats-balaguer.html
 <div class="row">
     <div class="col-md-6">
         <div style="text-align: center;">
-            <img src= "img\patrimoine\eglisePB\1-eglise-PB.png" 
+            <img src= "img\patrimoine\eglisePB\eglisePB.jpg" 
                 alt="team picture" 
                 style="max-width: 90%;"/>
         </div>

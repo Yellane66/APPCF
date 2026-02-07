@@ -51,6 +51,40 @@
         {
           "label": "Vierge et Martyre Sainte Catherine d’Alexandrie",
           "url": "/vierge-msca.html"
+        },
+        {
+          "label": "Patrimoine naturel",
+          "url": "/hikes.html"
+        }
+      ]
+    },
+    {
+      "label": "Randonnées",
+      "url": "#",
+      "submenu": [
+        {
+          "label": "Le château de Prats-Balaguer",
+          "url": "/hikes-chateau-pb.html"
+        },
+        {
+          "label": "La retenue d'Aumet",
+          "url": "/hikes-aumet.html"
+        }, 
+        {
+          "label": "Col Mitja (par le GR10)",
+          "url": "/hikes-mitja.html"
+        },
+        {
+          "label": "Le Pic du Redoun",
+          "url": "/hikes-redoun.html"
+        },
+        {
+          "label": "Le Pic du Gallinas",
+          "url": "/hikes-gallinas.html"
+        },
+        {
+          "label": "Le Coucouroucouil sous toutes ses coutures",
+          "url": "/hikes-coucouroucouil.html"
         }
       ]
     },

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Le château de Prats-Balaguer",
+        "url": "/hikes-chateau-pb.html",
+        "effort": 2,
+        "technicity": 2,
+        "risk": 2,
+        "column": 1
+    },
+    {
+        "name": "La retenue d'Aumet",
+        "url": "/hikes-aumet.html",
+        "effort": 2,
+        "technicity": 3,
+        "risk": 2,
+        "column": 1
+    },
+    {
+        "name": "Col Mitja (par le GR10)",
+        "url": "/hikes-mitja.html",
+        "effort": 3,
+        "technicity": 3,
+        "risk": 3,
+        "column": 1
+    },
+    {
+        "name": "Le Pic du Redoun",
+        "url": "/hikes-redoun.html",
+        "effort": 4,
+        "technicity": 3,
+        "risk": 3,
+        "column": 2
+    },
+    {
+        "name": "Le Pic du Gallinas",
+        "url": "/hikes-gallinas.html",
+        "effort": 4,
+        "technicity": 3,
+        "risk": 3,
+        "column": 2
+    },
+    {
+        "name": "Le Coucouroucouil sous toutes ses coutures",
+        "url": "/hikes-coucouroucouil.html",
+        "effort": 4,
+        "technicity": 3,
+        "risk": 3,
+        "column": 2
+    }
+]

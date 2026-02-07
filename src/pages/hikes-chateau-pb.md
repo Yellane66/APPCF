@@ -2,7 +2,7 @@
 layout: page.html
 title: Randonnée du château de Prats-Balaguer
 description: Randonnée du château de Prats-Balaguer
-permalink: /hikes-chateau-pb.html
+permalink: /hikes-chateau-pb2.html
 ---
 <div class="row">
     <div class="col-md-5 col-sd-6">

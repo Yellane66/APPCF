@@ -1,0 +1,89 @@
+---
+pagination:
+  data: hikes_details
+  size: 1
+  alias: hike
+layout: page.html
+eleventyComputed:
+  permalink: "{{ hike.permalink }}"
+  title: "{{ hike.title }}"
+  description: "{{ hike.title }}"
+---
+<div class="row">
+    <div class="col-md-5 col-sd-6">
+        <iframe width="{{ hike.openrunner.width }}" height="{{ hike.openrunner.height }}" src="{{ hike.openrunner.url }}" frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+    <div class="col-md-7">
+        <table class="hikes-sum">
+            <tr>
+            <td class="hikes-label">Départ</td>
+            <td class="hikes-value">{{ hike.details.depart }}</td>
+            </tr>
+            <tr>
+            <td class="hikes-label">Accessibilité</td>
+            <td class="hikes-value">{{ hike.details.accessibilite }}</td>
+            </tr>
+            <tr>
+            <td class="hikes-label">Classification de la randonnée</td>
+            <td class="hikes-value">
+                Effort: {{ hike.details.effort }} <br/>
+                Technicité: {{ hike.details.technicite }} <br/>
+                Risque: {{ hike.details.risque }}
+            </td>
+            </tr>
+            <tr>
+            <td class="hikes-label">Denivelé Psitif</td>
+            <td class="hikes-value">{{ hike.details.denivele }}</td>
+            </tr>
+            <tr>
+            <td class="hikes-label">Distance A/R</td>
+            <td class="hikes-value">{{ hike.details.distance }}</td>
+            </tr>
+            <tr>
+            <td class="hikes-label">Durée A/R estimée</td>
+            <td class="hikes-value">{{ hike.details.duree }}</td>
+            </tr>
+            <tr>
+            <td class="hikes-label">Caracteristique de la balade</td>
+            <td class="hikes-value">
+                {% for carac in hike.details.caracteristiques %}{{ carac }}{% if not loop.last %}, </br>{% endif %}{% endfor %}
+            </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="row" style="padding-top: 10px;">
+    <div class="col-md-12">
+        <p>
+            <span style="font-weight: bold;">
+            Itinéraire:
+            </span> {{ hike.itineraire }}
+        </p>
+    </div>
+</div>
+<div class="row">
+{% for image in hike.images %}
+     <div class="col-md-4">
+        <h6> {{ image.title | safe }}</h6>
+        <img src="{{ image.src }}" 
+        alt="{{ image.alt }}" 
+        class="{{ image.class }}">
+    </div>
+{% endfor %}
+</div>
+<br>
+
+## Actualités
+
+{% for item in news %}
+{% if hike.tag in item.tags %}
+<div class="row">
+<div class="news-item" style="margin: 20px 0; padding: 15px; border-left: 4px solid #2c5282;">
+    <h3>{% if item.url %}<a href="{{ item.url }}" target="_blank">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+    <p><small><em>{{ item.date }}</em></small></p>
+    <p>{{ item.description }}</p>
+</div>
+</div>
+{% endif %}
+{% endfor %}

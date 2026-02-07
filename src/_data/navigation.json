@@ -37,12 +37,12 @@
       "url": "#",
       "submenu": [
         {
-          "label": "Eglise de Prats-Balaguer",
-          "url": "/eglise-de-prats-balaguer.html"
-        },
-        {
           "label": "Mémorial Internet",
           "url": "/internet-memorial.html"
+        },
+        {
+          "label": "Eglise de Prats-Balaguer",
+          "url": "/eglise-de-prats-balaguer.html"
         },
         {
           "label": "Vierge Romane à l’enfant",

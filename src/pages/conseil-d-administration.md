@@ -16,7 +16,7 @@ permalink: /conseil-d-administration.html
                 </tr>
                 <tr>
                     <td class="role">Vice-Président</td>
-                    <td class="name">~</td>
+                    <td class="name">Sébastien Crastre</td>
                 </tr>
                 <tr>
                     <td class="role">Secrétaire</td>
@@ -36,7 +36,7 @@ permalink: /conseil-d-administration.html
             <h2> Bureau </h2>
             <p>
                 Lydie Babonneau, Michel Cayrol, Nadine Margail, 
-                Dominique Barthelet, Jean-Guy Parassols, Jean-Pierre Jany, Olivier Moné
+                Dominique Barthelet, Jean-Guy Parassols, Jean-Pierre Jany, Olivier Moné, Anne-Sophie Barthelet, Dominique Sagau
             </p>
         </div>
     </div>

@@ -1,65 +1,76 @@
 ---
 layout: page.html
-title: Randonnées
-description: Découvrez les randonnées organisées par l'APPCF
+title: Patrimoine Naturel
+description: Découvrez les randonnées conseillée par l'APPCF
 permalink: /hikes.html
 ---
 
-<p class="lead">Explorez les plus beaux sentiers de Fontpédrouse et ses environs.</p>
+<div class="row">
+<p>Pour le plaisir des petits et des grands, il existe de nombreuses de randonnées au niveau de difficultés variées pour découvrir le parc naturel des Pyrénées aux alentours de Fontpédrouse. Au detours de ces sentiers nos aventuriers auront la chance d'y découvrir une faune et une flore préservées. Les plus chanceux d'entre vous decouvriront que les Izards prennent la pose pour les photographes.
+</p>
+</div>
 
 <div class="row">
     <div class="col-md-6 mb-4">
-        <div class="card">
-            <img src="/img/hikes/aumet/thumb.jpg" class="card-img-top" alt="Randonnée Aumet">
-            <div class="card-body">
-                <h5 class="card-title">Aumet</h5>
-                <p class="card-text">Découvrez la randonnée d'Aumet et ses paysages remarquables.</p>
-                <a href="/hikes/aumet.html" class="btn btn-primary btn-sm">Détails</a>
-            </div>
+        <div style="text-align: center;">
+            <img src= "img/patrimoine/hikes/regulation/legend.png" 
+                alt="team picture" 
+                style="max-width: 90%;"/>
+        </div>
+    </div><div class="col-md-6 mb-8">
+        <div>
+            <p>
+                Pour faciliter votre organisation voici les randonnées les plus notables avec leur niveau de dificultée. Nous utilisons la classification national expliquée sur le site 
+                <a href="https://www.ffrandonnee.fr">de la Fédération Française de Randonnée</a>. 
+                Pour plus de détail cliquez sur le nom de la randonnée. Certaine de ces randonnées peuvent être combinées si vous le souhaitez.
+            </p>
         </div>
     </div>
+</div>
 
-    <div class="col-md-6 mb-4">
-        <div class="card">
-            <img src="/img/hikes/gallinas/thumb.jpg" class="card-img-top" alt="Randonnée Gallinas">
-            <div class="card-body">
-                <h5 class="card-title">Gallinas</h5>
-                <p class="card-text">Explorez les sentiers de Gallinas et leurs vues panoramiques.</p>
-                <a href="/hikes/gallinas.html" class="btn btn-primary btn-sm">Détails</a>
-            </div>
+<div class="row" style="padding-top: 10px;">
+    <div class="col-md-6">
+        {% for hike in hikes %}
+        {% if hike.column == 1 %}
+        <div class="row">
+            <a href="{{ hike.url }}">
+                <div class="col-md-12 regulation-div">
+                    <img src="img/patrimoine/hikes/regulation/E{{ hike.effort }}.jpg" 
+                        alt="Effort level {{ hike.effort }}" 
+                        class="regulation-img">
+                    <img src="img/patrimoine/hikes/regulation/T{{ hike.technicity }}.jpg" 
+                        alt="Technicity level {{ hike.technicity }}" 
+                        class="regulation-img">
+                    <img src="img/patrimoine/hikes/regulation/R{{ hike.risk }}.jpg" 
+                        alt="Risk level {{ hike.risk }}" 
+                        class="regulation-img">
+                    <h4 class="hike-name">{{ hike.name }}</h4>
+                </div>
+            </a>
         </div>
+        {% endif %}
+        {% endfor %}
     </div>
-
-    <div class="col-md-6 mb-4">
-        <div class="card">
-            <img src="/img/hikes/mitja/thumb.jpg" class="card-img-top" alt="Randonnée Mitja">
-            <div class="card-body">
-                <h5 class="card-title">Mitja</h5>
-                <p class="card-text">Parcourez les sentiers de Mitja en toute tranquillité.</p>
-                <a href="/hikes/mitja.html" class="btn btn-primary btn-sm">Détails</a>
-            </div>
+    <div class="col-md-6">
+        {% for hike in hikes %}
+        {% if hike.column == 2 %}
+        <div class="row">
+            <a href="{{ hike.url }}">
+                <div class="col-md-12 regulation-div">
+                    <img src="img/patrimoine/hikes/regulation/E{{ hike.effort }}.jpg" 
+                        alt="Effort level {{ hike.effort }}" 
+                        class="regulation-img">
+                    <img src="img/patrimoine/hikes/regulation/T{{ hike.technicity }}.jpg" 
+                        alt="Technicity level {{ hike.technicity }}" 
+                        class="regulation-img">
+                    <img src="img/patrimoine/hikes/regulation/R{{ hike.risk }}.jpg" 
+                        alt="Risk level {{ hike.risk }}" 
+                        class="regulation-img">
+                        <h4 class="hike-name">{{ hike.name }}</h4>
+                </div>
+            </a>
         </div>
-    </div>
-
-    <div class="col-md-6 mb-4">
-        <div class="card">
-            <img src="/img/hikes/prats_castle/thumb.jpg" class="card-img-top" alt="Randonnée Prats Castel">
-            <div class="card-body">
-                <h5 class="card-title">Prats Castel</h5>
-                <p class="card-text">Visitez les sites historiques de Prats Castel lors d'une randonnée guidée.</p>
-                <a href="/hikes/prats_castel.html" class="btn btn-primary btn-sm">Détails</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-6 mb-4">
-        <div class="card">
-            <img src="/img/hikes/redoun/thumb.jpg" class="card-img-top" alt="Randonnée Redoun">
-            <div class="card-body">
-                <h5 class="card-title">Redoun</h5>
-                <p class="card-text">Découvrez les sentiers de Redoun et ses richesses naturelles.</p>
-                <a href="/hikes/redoun.html" class="btn btn-primary btn-sm">Détails</a>
-            </div>
-        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>

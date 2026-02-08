@@ -214,3 +214,62 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 5px
 }
+/* Hikes Regulation Badges */
+.regulation-div {
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.regulation-div:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.regulation-img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.hike-name {
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.regulation-div a {
+    text-decoration: none;
+}
+
+.regulation-div a:hover .hike-name {
+    color: var(--secondary-color);
+}
+
+table.hikes-sum td.hikes-label {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+table.hikes-sum td.hikes-value {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.hikes-vertical {
+  max-height: 200px;
+}
+
+td.role {
+  padding-right: 10px;
+  font-weight: bold;
+}

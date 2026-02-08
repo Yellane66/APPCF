@@ -268,3 +268,8 @@ table.hikes-sum td.hikes-value {
 .hikes-vertical {
   max-height: 200px;
 }
+
+td.role {
+  padding-right: 10px;
+  font-weight: bold;
+}

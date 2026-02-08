@@ -141,7 +141,7 @@
       "caracteristiques": [
       ]
     },
-    "itineraire": "Dans un premier temps, suivre <a href=\"aumet.html\" class=\"hikes-link\">l'itinéraire de randonnée \"La retenue d'Aumet\".  </a> Une fois à Aumet, suivre une partie de  <a href=\"mitja.html\" class=\"hikes-link\"> l'itinéraire \"Le Col de la Mitja (par le GR10)\" </a> jusqu'à 2000m d'altitude. A cette altitude, le GR10  débouche sur une piste, prendre cette piste pendant  quelques dizaines de mètres puis prendre le chemin qui se devine lorsque l'on arrive dans un petit près et que l'on regarde sur sa gauche. Ce chemin descend jusqu'à  Prats-Balaguer.",
+    "itineraire": "Dans un premier temps, suivre <a href='/hikes-aumet.html' class='hikes-link'>l'itinéraire de randonnée 'La retenue d'Aumet'</a>. Une fois à Aumet, suivre une partie de <a href='/hikes-mitja.html' class='hikes-link'>l'itinéraire 'Le Col Mitja (par le GR10)'</a> jusqu'à 2000m d'altitude. A cette altitude, le GR10 débouche sur une piste, prendre cette piste pendant quelques dizaines de mètres puis prendre le chemin qui se devine lorsque l'on arrive dans un petit près et que l'on regarde sur sa gauche. Ce chemin descend jusqu'à Prats-Balaguer.",
     "images": [
       {
         "title": "Chateau de Prats-Balaguer",
@@ -192,7 +192,7 @@
       "caracteristiques": [
       ]
     },
-    "itineraire": "A la retenue d'eau d'Aumet, prendre au niveau de la barrière le petit chemin qui monte derrière le panneau indiquant \"tour du Cucurucuil\" et qui débouche environ 200m plus loin sur la cabane d'Aixeques. A partir de cette  cabane, suivre l'itinéraire du GR10 (balisage rouge et  blanc) jusqu'au col Mitja. Sur le GR10, à environ 2070  mètres d'altitude, se situe une petite source d'eau qui  n'est cependant pas surveillée. ",
+    "itineraire": "A la retenue d'eau d'Aumet, prendre au niveau de la barrière le petit chemin qui monte derrière le panneau indiquant \"tour du Cucurucuil\" et qui débouche environ 200m plus loin sur la cabane d'Aixeques. A partir de cette  cabane, suivre l'itinéraire du GR10 (balisage rouge et  blanc) jusqu'au col Mitja. Sur le GR10, à environ 2070  mètres d'altitude, se situe une petite source d'eau qui  n'est cependant pas surveillée.",
     "images": [
       {
         "title": "Retenue d'Aumet",
@@ -255,7 +255,7 @@
       "caracteristiques": [
       ]
     },
-    "itineraire": "Dans un premier temps, suivre  <a href=\"mitja.html\" class=\"hikes-link\"> l'itinéraire de randonnée \"Le Col Mitja\".  </a> Le pic Redoun se situe au Nord-Ouest du col Mitja (pic de droite quand on monte au col en venant de la retenue d'Aumet). Du col, suivre le chemin qui au début monte vers  le pic. Ensuite, le chemin est moins bien tracé et il faut  suivre les kerns jusqu'au sommet. Cet itinéraire comprend  des pierriers, il faut être vigilant afin d'éviter la chute.",
+    "itineraire": "Dans un premier temps, suivre <a href='/hikes-mitja.html' class='hikes-link'>l'itinéraire de randonnée 'Le Col Mitja (par le GR10)'</a>. Le pic Redoun se situe au Nord-Ouest du col Mitja (pic de droite quand on monte au col en venant de la retenue d'Aumet). Du col, suivre le chemin qui au début monte vers le pic. Ensuite, le chemin est moins bien tracé et il faut suivre les kerns jusqu'au sommet. Cet itinéraire comprend des pierriers, il faut être vigilant afin d'éviter la chute.",
     "images": [
       {
         "title": "Retenue d'Aumet",
@@ -324,7 +324,7 @@
       "caracteristiques": [
       ]
     },
-    "itineraire": "Dans un premier temps, suivre  <a href=\"mitja.html\" class=\"hikes-link\"> l'itinéraire de randonnée \"Le Col Mitja\".  </a> Le pic Gallinas se situe au Nord-Est du col Mitja,  c'est le pic de gauche lorsque l'on monte au col Mitja en  venant de la retenue d'eau d'Aumet. Du col, il faut suivre  un petit chemin kerné qui n'est pas évident à trouver et  qui monte jusqu'au sommet. L'itinéraire est délicat,  attention aux chutes, notamment à la descente.",
+    "itineraire": "Dans un premier temps, suivre <a href='/hikes-mitja.html' class='hikes-link'>l'itinéraire de randonnée 'Le Col Mitja (par le GR10)'</a>. Le pic Gallinas se situe au Nord-Est du col Mitja, c'est le pic de gauche lorsque l'on monte au col Mitja en venant de la retenue d'eau d'Aumet. Du col, il faut suivre un petit chemin kerné qui n'est pas évident à trouver et qui monte jusqu'au sommet. L'itinéraire est délicat, attention aux chutes, notamment à la descente.",
     "images": [
       {
         "title": "Retenue d'Aumet",

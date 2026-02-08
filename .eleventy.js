@@ -22,8 +22,9 @@ module.exports = function(eleventyConfig) {
     return JSON.stringify(data);
   });
 
-  // Filter to mark content as safe (HTML)
-  eleventyConfig.addFilter("safe", function(content) {
+  // Filter to mark content as safe (HTML) - for Liquid templates
+  // Nunjucks has its own built-in safe filter
+  eleventyConfig.addLiquidFilter("safe", function(content) {
     return content;
   });
 

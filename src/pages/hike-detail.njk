@@ -33,8 +33,8 @@ eleventyComputed:
             </td>
             </tr>
             <tr>
-            <td class="hikes-label">Denivelé Psitif</td>
-            <td class="hikes-value">{{ hike.details.denivele }}</td>
+            <td class="hikes-label">Denivelé Positif</td>
+            <td class="hikes-value">{{ hike.details.denivele }} m</td>
             </tr>
             <tr>
             <td class="hikes-label">Distance A/R</td>
@@ -51,21 +51,21 @@ eleventyComputed:
             </td>
             </tr>
         </table>
-    </div>
-</div>
-<div class="row" style="padding-top: 10px;">
-    <div class="col-md-12">
-        <p>
-            <span style="font-weight: bold;">
-            Itinéraire:
-            </span> {{ hike.itineraire }}
-        </p>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-12">
+                <p>
+                    <span style="font-weight: bold;">
+                    Itinéraire:
+                    </span> {{ hike.itineraire }}
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="row">
 {% for image in hike.images %}
-     <div class="col-md-4">
-        <h6> {{ image.title | safe }}</h6>
+     <div class="col-md-4" style="margin-bottom: 10px">
+        <b> {{ image.title | safe }}</b><br>
         <img src="{{ image.src }}" 
         alt="{{ image.alt }}" 
         class="{{ image.class }}">
@@ -74,7 +74,9 @@ eleventyComputed:
 </div>
 <br>
 
-## Actualités
+<p><b>Attention</b>: Les photos dates de 2019 et le chemin, et nos indications peuvent ne plus être entièrement à jour.</p>
+
+<h3> Actualités </h3>
 
 {% for item in news %}
 {% if hike.tag in item.tags %}

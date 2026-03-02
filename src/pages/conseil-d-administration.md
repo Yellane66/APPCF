@@ -19,12 +19,20 @@ permalink: /conseil-d-administration.html
                     <td class="name">~</td>
                 </tr>
                 <tr>
-                    <td class="role">Secrétaire</td>
-                    <td class="name">Marie-Thérèse CHAULET</td>
-                </tr>
-                <tr>
                     <td class="role">Trésorier</td>
                     <td class="name">Pierre ALESSANDRIA</td>
+                </tr>
+                <tr>
+                    <td class="role">Responsable Informatique et Numérique</td>
+                    <td class="name">Anne-Sophie OLIVIERI</td>
+                </tr>
+                <tr>
+                    <td class="role">Responsable Communication</td>
+                    <td class="name">Dominique SAGAU</td>
+                </tr>
+                <tr>
+                    <td class="role">Secrétaire</td>
+                    <td class="name">Marie-Thérèse CHAULET</td>
                 </tr>
                 <tr>
                     <td class="role">Secrétaire adj.</td>
@@ -35,8 +43,8 @@ permalink: /conseil-d-administration.html
         <div class="col-md-6">
             <h2> Bureau </h2>
             <p>
-                Lydie Babonneau, Michel Cayrol, Nadine Margail, 
-                Dominique Barthelet, Jean-Guy Parassols, Jean-Pierre Jany, Olivier Moné
+                Lydie Babonneau, Michel Cayrol, 
+                Dominique Barthelet, Jean-Guy Parassols
             </p>
         </div>
     </div>

@@ -16,7 +16,7 @@ permalink: /conseil-d-administration.html
                 </tr>
                 <tr>
                     <td class="role">Vice-Président</td>
-                    <td class="name">Sébastien Crastre</td>
+                    <td class="name">Sébastien CRASTRE</td>
                 </tr>
                 <tr>
                     <td class="role">Trésorier</td>
@@ -43,8 +43,10 @@ permalink: /conseil-d-administration.html
         <div class="col-md-6">
             <h2> Bureau </h2>
             <p>
-                Lydie Babonneau, Michel Cayrol, 
-                Dominique Barthelet, Jean-Guy Parassols
+                Lydie BABONNEAU, 
+                Dominique BARTHELET, 
+                Michel CAYROL, 
+                Jean-Guy PARASSOLS
             </p>
         </div>
     </div>

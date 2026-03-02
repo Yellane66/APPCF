@@ -16,7 +16,7 @@ permalink: /conseil-d-administration.html
                 </tr>
                 <tr>
                     <td class="role">Vice-Président</td>
-                    <td class="name">~</td>
+                    <td class="name">Sébastien Crastre</td>
                 </tr>
                 <tr>
                     <td class="role">Trésorier</td>

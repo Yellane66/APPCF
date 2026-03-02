@@ -1,0 +1,361 @@
+[
+  {
+    "id": "chateau-pb",
+    "title": "Randonnée du château de Prats-Balaguer",
+    "name": "Le château de Prats-Balaguer",
+    "permalink": "/hikes-chateau-pb.html",
+    "tag": "hike-chateau-pb",
+    "openrunner": {
+      "url": "https://www.openrunner.com/route/9756329/embed/fr/336e78585272344d6f6a6a68665076387a534c6e6d584f6a6a705852626c49756644436645674c54325a733d3a3a8533a03adabacf5e777c1a26b48dd6b5",
+      "width": "450px",
+      "height": "580px"
+    },
+    "details": {
+      "depart": "Fontpédrouse monument aux morts",
+      "accessibilite": "Toutes saisons",
+      "effort": "E2",
+      "technicite": "T2 / T3 ponctuellement",
+      "risque": "R2",
+      "denivele": "320m",
+      "distance": "5 km",
+      "duree": "2h00",
+      "caracteristiques": [
+        "Chateau de Prats-Balaguer",
+        "Eglise de Prats-Balaguer",
+        "Pont Romain de Fontpédrouse"
+      ]
+    },
+    "itineraire": "En partant de Fontpédrouse à pied, prendre la route qui se dirige vers Prats-Balaguer, Saint-Thomas pendant 500m où se trouve un petit pont. Une fois passé le pont, prendre le chemin qui monte et continuer tout droit sur ce chemin, à chaque intersections et ce, jusqu'à Prats-Balaguer. Une fois arrivé dans Prats-Balaguer, passer devant le clocher, puis le lavoir et prendre le chemin qui débute quelques dizaines de mètres derrière  le lavoir et qui découche au château. Il existe un possibilité de faire une boucle à Prats-Balaguer en redescendant par la piste devant le chateau qui vous ramène au niveau de l'église de Prats-Balaguer. Il existe un très beau point de vue au niveau de l'église et celle-ci peut être visitée.",
+    "images": [
+      {
+        "title": "Chemin après pont Romain",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\bifurcation_pont_romain.jpg",
+        "alt": "chemin après pont romain",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Clocher de Prats-Balaguer",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\clocher.jpg",
+        "alt": "Clocher de Prats-Balaguer",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Lavoir de Prats-Balaguer.<br/>Prendre la chemin visible sur la photo.",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\lavoir.jpg",
+        "alt": "lavoir de Prats-Balaguer",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Chateau de Prats-Balaguer",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\castel.jpg",
+        "alt": "chateau de Prats-Balaguer",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Eglise de Prats-Balaguer.",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\church_prats.jpg",
+        "alt": "eglise de Prats-Balaguer",
+        "class": "img-responsive"
+      }
+    ]
+  },
+  {
+    "id": "aumet",
+    "title": "La retenue d'Aumet",
+    "name": "La retenue d'Aumet",
+    "permalink": "/hikes-aumet.html",
+    "tag": "hike-aumet",
+    "openrunner": {
+      "url": "https://www.openrunner.com/route/9756352/embed/fr/2f474c2b493630656d5951717a676e4a306d7252694334386e7254642b31656f69586448504a76457479513d3a3a457f28c878882167f5caed63cf161476",
+      "width": "450px",
+      "height": "580px"
+    },
+    "details": {
+      "depart": "Clocher de Prats-Balaguer",
+      "accessibilite": "Toutes saisons. Risque de partie verglacée en hivers",
+      "effort": "E2",
+      "technicite": "T3",
+      "risque": "R2",
+      "denivele": "305",
+      "distance": "5.4 km",
+      "duree": "2h00",
+      "caracteristiques": [
+        "Chateau de Prats-Balaguer",
+        "Vue sur les pics de de la vallée"
+      ]
+    },
+    "itineraire": "A Prats-Balaguer, passer devant le clocher, puis le lavoir et prendre le chemin qui débute quelques dizaines de  mètres derrière  le lavoir et qui débouche au château. Une  fois au château, suivre la piste sur environ 300 m et  prendre le chemin qui monte sur la gauche et qui arrive  par la suite, directement à la retenue d'eau d'Aumet.",
+    "images": [
+      {
+        "title": "Clocher de Prats-Balaguer",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\clocher.jpg",
+        "alt": "Clocher de Prats-Balaguer",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Lavoir de Prats-Balaguer.<br/>Prendre la chemin visible sur la photo.",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\lavoir.jpg",
+        "alt": "lavoir de Prats-Balaguer",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue sur le Pic du Monellet",
+        "src": "img\\patrimoine\\hikes\\aumet\\monellet_pic.jpg",
+        "alt": "vue sur le pic de monellet",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue sur le Pic de Rodo",
+        "src": "img\\patrimoine\\hikes\\aumet\\rodo_pic.jpg",
+        "alt": "vue sur le pic de rodo",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Retenue d'Aumet",
+        "src": "img\\patrimoine\\hikes\\aumet\\aumet.jpg",
+        "alt": "Retenue d'eau d'aumet",
+        "class": "img-responsive"
+      }
+    ]
+  },
+  {
+    "id": "coucouroucouil",
+    "title": "Le Coucouroucouil sous toutes ses coutures",
+    "name": "Le Coucouroucouil sous toutes ses coutures",
+    "permalink": "/hikes-coucouroucouil.html",
+    "tag": "hike-coucouroucouil",
+    "openrunner": {
+      "url": "https://www.openrunner.com/route/9756480/embed/fr/716859754f6b4149332b43666c64346f3559696450676d577249626e337236337543496e447553613554413d3a3acb19a1262973100b7d07a5acb5e70e3a",
+      "width": "450px",
+      "height": "580px"
+    },
+    "details": {
+      "depart": "Prats-Balaguer",
+      "accessibilite": "Printemps, Eté & Automne (ne pas pratiquer en cas de neige)",
+      "effort": "E4",
+      "technicite": "T3 / T4 ponctuellement",
+      "risque": "R3",
+      "denivele": "660",
+      "distance": "9.1 km",
+      "duree": "4h00",
+      "caracteristiques": [
+      ]
+    },
+    "itineraire": "Dans un premier temps, suivre <a href='/hikes-aumet.html' class='hikes-link'>l'itinéraire de randonnée 'La retenue d'Aumet'</a>. Une fois à Aumet, suivre une partie de <a href='/hikes-mitja.html' class='hikes-link'>l'itinéraire 'Le Col Mitja (par le GR10)'</a> jusqu'à 2000m d'altitude. A cette altitude, le GR10 débouche sur une piste, prendre cette piste pendant quelques dizaines de mètres puis prendre le chemin qui se devine lorsque l'on arrive dans un petit près et que l'on regarde sur sa gauche. Ce chemin descend jusqu'à Prats-Balaguer.",
+    "images": [
+      {
+        "title": "Chateau de Prats-Balaguer",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\castel.jpg",
+        "alt": "chateau de Prats-Balaguer",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Retenue d'Aumet",
+        "src": "img\\patrimoine\\hikes\\aumet\\aumet.jpg",
+        "alt": "Retenue d'eau d'aumet",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Cabane d'Aixeques",
+        "src": "img\\patrimoine\\hikes\\mitja\\cabane_aixeques.jpg",
+        "alt": "Cabane d'Aixeques",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Eglise de Prats-Balaguer.",
+        "src": "img\\patrimoine\\hikes\\prats_castle\\church_prats.jpg",
+        "alt": "eglise de Prats-Balaguer",
+        "class": "img-responsive"
+      }
+    ]
+  },
+  {
+    "id": "mitja",
+    "title": "Le col Mitja par le GR10",
+    "name": "Le col Mitja par le GR10",
+    "permalink": "/hikes-mitja.html",
+    "tag": "hike-mitja",
+    "openrunner": {
+      "url": "https://www.openrunner.com/route/9756390/embed/fr/497267354965612f632b74465039774d7979765174646b574e4d306e667a676c324e62594445796f6737593d3a3a85a9b6ea83d3fa603e8ebb323e930552",
+      "width": "450px",
+      "height": "580px"
+    },
+    "details": {
+      "depart": "Retenue d'eau d'Aumet. Accessible en voiture adaptée (favoriser 4x4) via une piste",
+      "accessibilite": "Printemps, Eté & Automne (équipement nécessaire en cas de neige)",
+      "effort": "E4",
+      "technicite": "T3 / T4 ponctuellement",
+      "risque": "R3",
+      "denivele": "730",
+      "distance": "9 km",
+      "duree": "5h00",
+      "caracteristiques": [
+      ]
+    },
+    "itineraire": "A la retenue d'eau d'Aumet, prendre au niveau de la barrière le petit chemin qui monte derrière le panneau indiquant \"tour du Cucurucuil\" et qui débouche environ 200m plus loin sur la cabane d'Aixeques. A partir de cette  cabane, suivre l'itinéraire du GR10 (balisage rouge et  blanc) jusqu'au col Mitja. Sur le GR10, à environ 2070  mètres d'altitude, se situe une petite source d'eau qui  n'est cependant pas surveillée.",
+    "images": [
+      {
+        "title": "Retenue d'Aumet",
+        "src": "img\\patrimoine\\hikes\\aumet\\aumet.jpg",
+        "alt": "Retenue d'eau d'aumet",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Cabane d'Aixeques",
+        "src": "img\\patrimoine\\hikes\\mitja\\cabane_aixeques.jpg",
+        "alt": "Cabane d'Aixeques",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Source d'eau",
+        "src": "img\\patrimoine\\hikes\\mitja\\retenue_eau.jpg",
+        "alt": "Source d'eau",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Vue sur le plateau Cerdant",
+        "src": "img\\patrimoine\\hikes\\mitja\\cerdagne_view.jpg",
+        "alt": "vue sur le plateau cerdant",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue sur le Massif du Carlit depuis le col Mitja",
+        "src": "img\\patrimoine\\hikes\\mitja\\carlit_view.jpg",
+        "alt": "Vue sur le massif du carlit",
+        "class": "img-responsive"
+      },
+      {
+        "title": " Col Mitja - plaque",
+        "src": "img\\patrimoine\\hikes\\mitja\\balise_mitja.jpg",
+        "alt": "plaque de la mitja",
+        "class": "img-responsive hikes-vertical"
+      }
+    ]
+  },
+  {
+    "id": "redoun",
+    "title": "Le pic du Redoun",
+    "name": "Le pic du Redoun",
+    "permalink": "/hikes-redoun.html",
+    "tag": "hike-redoun",
+    "openrunner": {
+      "url": "https://www.openrunner.com/route/9756516/embed/fr/704565426475395733775676473131326d4178794e756e4e636f427841653731327a332f5376444d5459513d3a3ab10a027d87611ae6fa5da4fd4418a1f5",
+      "width": "450px",
+      "height": "580px"
+    },
+    "details": {
+      "depart": "Retenue d'eau d'Aumet. Accessible en voiture adaptée (favoriser 4x4) via une piste",
+      "accessibilite": "Printemps, Eté & Automne (ne pas pratiquer en cas de neige)",
+      "effort": "E4",
+      "technicite": "T3",
+      "risque": "R3",
+      "denivele": "1040",
+      "distance": "11.4 km",
+      "duree": "7h30",
+      "caracteristiques": [
+      ]
+    },
+    "itineraire": "Dans un premier temps, suivre <a href='/hikes-mitja.html' class='hikes-link'>l'itinéraire de randonnée 'Le Col Mitja (par le GR10)'</a>. Le pic Redoun se situe au Nord-Ouest du col Mitja (pic de droite quand on monte au col en venant de la retenue d'Aumet). Du col, suivre le chemin qui au début monte vers le pic. Ensuite, le chemin est moins bien tracé et il faut suivre les kerns jusqu'au sommet. Cet itinéraire comprend des pierriers, il faut être vigilant afin d'éviter la chute.",
+    "images": [
+      {
+        "title": "Retenue d'Aumet",
+        "src": "img\\patrimoine\\hikes\\aumet\\aumet.jpg",
+        "alt": "Retenue d'eau d'aumet",
+        "class": "img-responsive"
+      },
+      {
+        "title": " Col Mitja - plaque",
+        "src": "img\\patrimoine\\hikes\\mitja\\balise_mitja.jpg",
+        "alt": "plaque de la mitja",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Vue sur Redoun depuis le col Mitja",
+        "src": "img\\patrimoine\\hikes\\redoun\\pic_redoun.jpg",
+        "alt": "Vue sur le redoun",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue du Redoun sur le Gallinas",
+        "src": "img\\patrimoine\\hikes\\redoun\\gallinas.jpg",
+        "alt": "Vue du Redoun sur le Gallinas",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue sur la vallée d'Orri",
+        "src": "img\\patrimoine\\hikes\\redoun\\vallee_orri.jpg",
+        "alt": "vue sur la vallée d'orri",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue sur les crêtes menant au pic Monellet",
+        "src": "img\\patrimoine\\hikes\\redoun\\crete_pic_monellet.jpg",
+        "alt": "vue sur les crêtes menant au pic monellet",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Vue sur le col Mitja depuis le pic du Redoun",
+        "src": "img\\patrimoine\\hikes\\redoun\\mitja_redoune.jpg",
+        "alt": "vue sur le col mitja depuis le pic du redoun",
+        "class": "img-responsive"
+      }
+    ]
+  },
+  {
+    "id": "gallinas",
+    "title": "Le pic du Gallinas",
+    "name": "Le pic du Gallinas",
+    "permalink": "/hikes-gallinas.html",
+    "tag": "hike-gallinas",
+    "openrunner": {
+      "url": "https://www.openrunner.com/route/9756437/embed/fr/5345413772616f444b5079646159445641595154436e4446685450453542352b7968517a34572f41692b773d3a3a97d089278faf8f8bc43573188fa9c63b",
+      "width": "450px",
+      "height": "580px"
+    },
+    "details": {
+      "depart": "Retenue d'eau d'Aumet. Accessible en voiture adaptée (favoriser 4x4) via une piste",
+      "accessibilite": "Printemps, Eté & Automne (ne pas pratiquer en cas de neige)",
+      "effort": "E4",
+      "technicite": "T3",
+      "risque": "R3",
+      "denivele": "990",
+      "distance": "11 km",
+      "duree": "7h00",
+      "caracteristiques": [
+      ]
+    },
+    "itineraire": "Dans un premier temps, suivre <a href='/hikes-mitja.html' class='hikes-link'>l'itinéraire de randonnée 'Le Col Mitja (par le GR10)'</a>. Le pic Gallinas se situe au Nord-Est du col Mitja, c'est le pic de gauche lorsque l'on monte au col Mitja en venant de la retenue d'eau d'Aumet. Du col, il faut suivre un petit chemin kerné qui n'est pas évident à trouver et qui monte jusqu'au sommet. L'itinéraire est délicat, attention aux chutes, notamment à la descente.",
+    "images": [
+      {
+        "title": "Retenue d'Aumet",
+        "src": "img\\patrimoine\\hikes\\aumet\\aumet.jpg",
+        "alt": "Retenue d'eau d'aumet",
+        "class": "img-responsive"
+      },
+      {
+        "title": " Col Mitja - plaque",
+        "src": "img\\patrimoine\\hikes\\mitja\\balise_mitja.jpg",
+        "alt": "plaque de la mitja",
+        "class": "img-responsive hikes-vertical"
+      },
+      {
+        "title": "Vue sur Gallinas depuis le col Mitja",
+        "src": "img\\patrimoine\\hikes\\gallinas\\gallinas_mitja.jpg",
+        "alt": "Vue sur le gallinas",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue depuis le Gallinas",
+        "src": "img\\patrimoine\\hikes\\gallinas\\gallinas_view.jpg",
+        "alt": "vue depuis le gallinas",
+        "class": "img-responsive"
+      },
+      {
+        "title": "Vue sur le Canigou depuis le Gallinas",
+        "src": "img\\patrimoine\\hikes\\gallinas\\gallinas_canigou.jpg",
+        "alt": "vue du canigou",
+        "class": "img-responsive"
+      }
+    ]
+  }
+]
